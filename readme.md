@@ -8,9 +8,9 @@ Documentation for the framework can be found on the [Laravel website](http://lar
 
 ## Dependencias
 
-Linux os
+El proyecto debe ser montado en un servidor Linux e instalar PDFTOHTML y Ghostscript
 
-'''
+```
 sudo apt-get install poppler-utils
-'''
+```
 
