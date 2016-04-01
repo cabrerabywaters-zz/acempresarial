@@ -155,6 +155,9 @@ return [
         acempresarial\Providers\AuthServiceProvider::class,
         acempresarial\Providers\EventServiceProvider::class,
         acempresarial\Providers\RouteServiceProvider::class,
+        Orchestra\Parser\XmlServiceProvider::class,
+        //Yangqi\Htmldom\HtmldomServiceProvider::class,
+
 
     ],
 
@@ -201,6 +204,8 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+        'XmlParser' => Orchestra\Parser\Xml\Facade::class,
+        //'Htmldom' => 'Yangqi\Htmldom\Htmldom',
 
     ],
 
