@@ -5,7 +5,7 @@ namespace acempresarial\Http\Controllers;
 use Illuminate\Http\Request;
 use acempresarial\Http\Requests;
 use acempresarial\Repositories\CTE\CteUploaderRepository;
-use acempresarial\Repositories\PDF\XmlExtractorRepository;
+
 
 //use Htmldom;
 
@@ -91,17 +91,17 @@ class CTEsController extends Controller
     /**
      * PDF upload for the CTE
      * @param  Request $request PDF
-     * @param  [type]  $user_id User's ID
+     * @param  int  $user_id User's ID
      * @return json           success/fail
      */
     public function upload(Request $request, $user_id,
-    	CteUploaderRepository $uploadManager,XmlExtractorRepository $extractor)
+    	CteUploaderRepository $uploadManager)
     {
       
         $file = $request->file('file');      
         $Cte = $uploadManager->upload($file,"uploads/ctes/$user_id/");            
 
-     
+     	dd($Cte);
         return 'Done';
     }
 }

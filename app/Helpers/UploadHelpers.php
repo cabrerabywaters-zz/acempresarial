@@ -22,6 +22,6 @@ class UploadHelpers
      */
     public function move()
     {
-    	$this->file->move($this->path, $this->name);    	
+        $this->file->move($this->path, $this->name);
     }
 }

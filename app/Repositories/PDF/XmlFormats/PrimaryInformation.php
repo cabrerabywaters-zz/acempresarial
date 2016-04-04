@@ -1,8 +1,16 @@
 <?php
 namespace acempresarial\Repositories\PDF\XmlFormats;
 
+use acempresarial\Helpers\PHPhelpers;
+
 class PrimaryInformation
 {
+    private $helper;
+
+    public function __construct(PHPhelpers $helper)
+    {
+        $this->helper = $helper;
+    }
     private $fields =
                 [
                     'issuer' => [
@@ -46,7 +54,20 @@ class PrimaryInformation
                                     'type'=>'multiple',
                                     'name'=>'lasts_stamped_documents',
                                     'next_label'=>'Observaciones tributarias:'
-                                ]
+                                ],
+                    'legal_representative' => [
+                                    'label'=>'Representante(s) Legal(es)',
+                                    'type'=>'multiple',
+                                    'name'=>'legal_representative',
+                                    'next_label'=>'Conformación de la sociedad'
+                                ],
+                    'company_conformation' => [
+                                    'label'=>'Conformación de la sociedad',
+                                    'type'=>'multiple',
+                                    'name'=>'company_conformation',
+                                    'next_label'=>'Participación en sociedades'
+                                ],
+
 
                 ];
 
@@ -74,7 +95,7 @@ class PrimaryInformation
                 elseif ($field['type']=="multiple") {
                     if ($content == $field['label']) {
                         $next = 1;
-                        while ($xml['page'][0]['text'][$position + $next] != $field['next_label']) {
+                        while (!$this->helper->startsWith($xml['page'][0]['text'][$position + $next], $field['next_label'])) {
                             $result[$field['name']][] = $xml['page'][0]['text'][$position + $next];
                             $next++;
                         }

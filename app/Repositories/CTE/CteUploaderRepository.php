@@ -8,7 +8,7 @@ use acempresarial\Repositories\PDF\XmlExtractorRepository;
 
 class CteUploaderRepository
 {
-	private $pdf;
+    private $pdf;
     private $xml;
 
     public function __construct(PdfParserRepository $pdf, XmlExtractorRepository $xml)
@@ -18,19 +18,17 @@ class CteUploaderRepository
     }
    
     /**
-     * Formats the File and Uploads it
-     * to the correct project folder.
-     * Then It Unlocks and Parse the PDF to XML
+     * Formats the File and Uploads it to the correct project folder.
+     * Then It Unlocks, Parse the PDF to XML and Formats it to array.
      * @param  UploadedFile $file
      * @return [type]             [description]
      */
     public function upload(UploadedFile $file, $path)
-    {    	
-
+    {
         $file = new UploadHelpers($file, $path);
-        		$file->move();  
-       	$file = $this->pdf->parseToXml($file);                       
-        $CTE = $this->xml->parse($file);    
-		dd('OK')  ;    
+        $file->move();
+        $file = $this->pdf->parseToXml($file);
+        $CTE = $this->xml->parse($file);
+        return $CTE;
     }
 }
