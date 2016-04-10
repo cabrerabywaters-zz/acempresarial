@@ -1,6 +1,6 @@
 <?php
 
-namespace acempresarial;
+namespace acempresarial\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

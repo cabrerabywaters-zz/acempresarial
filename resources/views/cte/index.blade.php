@@ -4,8 +4,8 @@
 <section class="content-header">
     
     <h1>
-    Subir Carpeta Tributaria
-    <small>Para la preparación de Informe</small>
+    Carpetas Subidas
+    <small>Carpetas entregadas para la generación de informe</small>
     </h1>
     <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
@@ -15,35 +15,72 @@
 </section>
 <!-- Main content -->
 <section class="content">
-    <!-- Default box -->
-    <div class="box">
-        <div class="box-header with-border">
-            <h3 class="box-title">Haga click o arrastre un PDF</h3>
-            <div class="box-tools pull-right">
-                <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
-                <i class="fa fa-minus"></i></button>
-                <button type="button" class="btn btn-box-tool" data-widget="remove" data-toggle="tooltip" title="Remove">
-                <i class="fa fa-times"></i></button>
+      
+        <div class="box">
+            <div class="box-header">
+              <h3 class="box-title">Últimas Carpetas Subidas</h3>
             </div>
-        </div>
-        <div class="box-body">
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <div class="panel panel-default">
+            <!-- /.box-header -->
+            <div class="box-body">
+                <table id="lastCTE" class="table table-bordered table-striped dataTable">
+                    <thead>
+                        <th>Empresa</th>
+                        <th>Fecha</th>
+                        <th>Número de Páginas</th>
                         
-                        <form id="my-awesome-dropzone"
-                            action="/users/{{Auth::user()->id}}/ctes" class="dropzone">
-                            {{ csrf_field()}}
-                        </form>
-                    </div>
-                </div>
+                    </thead>
+                    
+                    <tbody>
+                    <tr>
+                        <td>Alguien</td>
+                        <td>Alguien</td>
+                        <td>Alguien</td>
+                    </tr>                   
+
+                    </tbody>
+
+                    <tfoot></tfoot>
+
+                </table>
             </div>
-        </div>
-        <!-- /.box-body -->
+            <!-- /.box-body -->
+          </div>
         
-        <!-- /.box-footer-->
-    </div>
-    <!-- /.box -->
+
 </section>
 <!-- /.content -->
+@endsection
+
+@section('footer_scripts')
+<script type="text/javascript">
+    $(document).ready(function(){
+    $('#lastCTE').DataTable({
+        language: {
+            "sProcessing":     "Procesando...",
+            "sLengthMenu":     "Mostrar _MENU_ resultados",
+            "sZeroRecords":    "No se encontraron resultados",
+            "sEmptyTable":     "Ningún dato disponible en esta tabla",
+            "sInfo":           "Mostrando _START_ al _END_ de un total de _TOTAL_ resultados",
+            "sInfoEmpty":      "Sin resultados",
+            "sInfoFiltered":   "(filtrado de un total de _MAX_ resultados)",
+            "sInfoPostFix":    "",
+            "sSearch":         "Buscar:",
+            "sUrl":            "",
+            "sInfoThousands":  ",",
+            "sLoadingRecords": "Cargando...",
+            "oPaginate": {
+                "sFirst":    "Primero",
+                "sLast":     "Último",
+                "sNext":     "Siguiente",
+                "sPrevious": "Anterior"
+            },
+            "oAria": {
+                "sSortAscending":  ": Activar para ordenar la columna de manera ascendente",
+                "sSortDescending": ": Activar para ordenar la columna de manera descendente"
+            }
+        }
+    });
+});
+</script>
+
 @endsection

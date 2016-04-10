@@ -11,26 +11,23 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+
+Route::group(['middleware' => 'guest'], function(){
+     	Route::get('/', function(){
+			return redirect('/login');
+		});
 });
+
 
 Route::auth();
 
-Route::get('/home', 'HomeController@index');
-
 Route::post('/users/{id}/ctes', 'CTEsController@upload');
+
 
 Route::group(['middleware' => ['auth']
     ], function () {
-
-    	
- 		Route::resource('cte', 'CTEsController');
-
-		
-             
-
-
+    	Route::get('/ctes/upload', 'CTEsController@uploader');
+ 		Route::resource('cte', 'CTEsController'); 
     });
 
 

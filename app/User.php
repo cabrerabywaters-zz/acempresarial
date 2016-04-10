@@ -23,4 +23,12 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
+
+     /**
+     * The roles that belong to the user.
+     */
+    public function companies()
+    {
+        return $this->belongsToMany('acempresarial\Models\Company');
+    }
 }

@@ -44,7 +44,11 @@ class Handler extends ExceptionHandler
      * @return \Illuminate\Http\Response
      */
     public function render($request, Exception $e)
-    {
+    {       
+        if($e instanceof(TokenMismatchException::class))
+        {            
+            return redirect('/logout');
+        }
         return parent::render($request, $e);
     }
 }

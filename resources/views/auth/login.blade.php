@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
-    <head>
+    <head profile="http://www.w3.org/2005/10/profile">
+        <link rel="icon" type="image/png" href="/dist/img/favicon.png">
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Acelerador Empresarial</title>
@@ -24,11 +25,11 @@
     <body class="hold-transition login-page">
         <div class="login-box">
             <div class="login-logo">
-                <a href="../../index2.html"><b>Acelerador</b> Empresarial</a>
+                <img src="/dist/img/logo.png">
             </div>
             <!-- /.login-logo -->
             <div class="login-box-body">
-                <p class="login-box-msg">Sign in to start your session</p>
+                <p class="login-box-msg">Inicie sesión para comenzar.</p>
                 <form class="form-horizontal" role="form" method="POST" action="{{ url('/login') }}">
                     {!! csrf_field() !!}
                     <div class="form-group has-feedback{{ $errors->has('email') ? ' has-error' : '' }}">
@@ -59,32 +60,29 @@
                         <div class="col-xs-8">
                             <div class="checkbox icheck">
                                 <label>
-                                    <input type="checkbox"> Remember Me
+                                    <input type="checkbox"> Recuérdame.
                                 </label>
                             </div>
                         </div>
                         <!-- /.col -->
                         <div class="col-xs-4">
-                            <button type="submit" class="btn btn-primary btn-block btn-flat">Sign In</button>
+                            <button type="submit" class="btn btn-primary btn-block btn-flat">Entrar</button>
                         </div>
                         <!-- /.col -->
                     </div>
                 </form>
                 <div class="social-auth-links text-center">
-                    <p>- OR -</p>
-                    <a href="#" class="btn btn-block btn-social btn-facebook btn-flat"><i class="fa fa-facebook"></i> Sign in using
-                    Facebook</a>
-                    <a href="#" class="btn btn-block btn-social btn-google btn-flat"><i class="fa fa-google-plus"></i> Sign in using
-                    Google+</a>
+                    <p>---- También puede ----</p>
+                    <a href="#" class="btn btn-block btn-social btn-facebook btn-flat"><i class="fa fa-facebook"></i> Registrarse con Facebook</a>
+                    <a href="#" class="btn btn-block btn-social btn-google btn-flat"><i class="fa fa-google-plus"></i> Registrarse con Google+</a>
                 </div>
                 <!-- /.social-auth-links -->
-                <a href="#">I forgot my password</a><br>
-                <a href="register.html" class="text-center">Register a new membership</a>
+                <a href="#">Olvidé mi Contraseña</a><br>
+                <a href="/register" class="text-center">Crear una cuenta</a>
             </div>
             <!-- /.login-box-body -->
         </div>
-
-         <!-- JavaScripts -->
+        <!-- JavaScripts -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
         <script src="{{ elixir('js/compiled/allVendor.js') }}"></script>

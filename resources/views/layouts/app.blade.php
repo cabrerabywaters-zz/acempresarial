@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+    <head profile="http://www.w3.org/2005/10/profile">
+        <link rel="icon" type="image/png" href="/dist/img/favicon.png">
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Acelerador Empresarial</title>
@@ -31,14 +32,13 @@
             <!-- =============================================== -->
             <!-- Content Wrapper. Contains page content -->
             <div class="content-wrapper">
-
                 @yield('content')
-               
+                
             </div>
             <!-- /.content-wrapper -->
-                @include('layouts.partials._footer')
+            @include('layouts.partials._footer')
             <!-- Control Sidebar -->
-                @include('layouts.partials._controlSidebar')
+            @include('layouts.partials._controlSidebar')
             <!-- /.control-sidebar -->
             <!-- Add the sidebar's background. This div must be placed
             immediately after the control sidebar -->
@@ -49,5 +49,6 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
         <script src="{{ elixir('js/compiled/allVendor.js') }}"></script>
+        @yield('footer_scripts')
     </body>
 </html>

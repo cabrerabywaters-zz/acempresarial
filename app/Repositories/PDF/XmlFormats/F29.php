@@ -82,7 +82,7 @@ class F29
                                 ],
                     'qty_issued_invoices' => [
                                     'label'=>'CANTIDAD FACTURAS EMITIDAS',
-                                    'code_offset'=>2,
+                                    'code_offset'=>-1,
                                     'value_offset'=>1,
                                     'name'=>'qty_issued_invoices'
                                 ],
@@ -213,12 +213,11 @@ class F29
 
                 foreach ($this->fields as $label => $field) {
                     if (strtoupper($content) == $field['label']) {
-                        $result[$pageNumber][$field['name']] =
-                       [
-                       'code'=>$this->helper->extract_value($xml['page'][$pageNumber]['text'][$position + $field['code_offset']]),
-                       'value'=>$this->helper->extract_value($xml['page'][$pageNumber]['text'][$position + $field['value_offset']])
+                        $code = $this->helper->extract_value($xml['page'][$pageNumber]['text'][$position + $field['code_offset']]);
+                        $value = $this->helper->extract_value($xml['page'][$pageNumber]['text'][$position + $field['value_offset']]);
 
-                        ] ;
+                        $result[$pageNumber]['C'.$code.'_'.$field['name']] =$value;
+                       
                     }
                 }
             }

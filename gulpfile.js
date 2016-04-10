@@ -20,7 +20,8 @@ elixir(function(mix) {
             'dropzone/dist/min/dropzone.min.css', 
             'AdminLTE/dist/css/AdminLTE.min.css',
             'AdminLTE/dist/css/skins/_all-skins.min.css',
-            'AdminLTE/plugins/iCheck/square/blue.css'   
+            'AdminLTE/plugins/iCheck/square/blue.css',
+            'AdminLTE/plugins/datatables/dataTables.bootstrap.css'
 
             ], 'public/css/compiled/allVendor.css', 'vendor/bower/'
         )
@@ -31,8 +32,9 @@ elixir(function(mix) {
             	'AdminLTE/plugins/fastclick/fastclick.js',
             	'AdminLTE/dist/js/app.min.js',
             	'AdminLTE/dist/js/demo.js',
-            	'AdminLTE/plugins/iCheck/icheck.min.js'
-
+            	'AdminLTE/plugins/iCheck/icheck.min.js',
+            	'AdminLTE/plugins/datatables/jquery.dataTables.min.js',
+            	'AdminLTE/plugins/datatables/dataTables.bootstrap.min.js'
 
             ], 'public/js/compiled/allVendor.js', 'vendor/bower/'
         )

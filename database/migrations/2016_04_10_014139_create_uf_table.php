@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateCompaniesTable extends Migration
+class CreateUfTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,12 +12,13 @@ class CreateCompaniesTable extends Migration
      */
     public function up()
     {
-        Schema::create('companies', function (Blueprint $table) {
+        Schema::create('ufs', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('name');
-            $table->string('rut');
-            $table->text('address');
-            $table->string('tax_category');
+            $table->string('year');
+            $table->string('month');
+            $table->double('value', 15, 3);
+            $table->date('date');                  
+            $table->timestamps();
         });
     }
 
@@ -28,6 +29,6 @@ class CreateCompaniesTable extends Migration
      */
     public function down()
     {
-        Schema::drop('companies');
+        Schema::drop('ufs');
     }
 }

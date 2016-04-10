@@ -18,7 +18,7 @@ class CTEsController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index()
-    {
+    {    	
         return view('cte.index');
     }
 
@@ -51,7 +51,7 @@ class CTEsController extends Controller
      */
     public function show($id)
     {
-        //
+        
     }
 
     /**
@@ -99,9 +99,15 @@ class CTEsController extends Controller
     {
       
         $file = $request->file('file');      
-        $Cte = $uploadManager->upload($file,"uploads/ctes/$user_id/");            
+        $Cte = $uploadManager->upload($file,"uploads/ctes/$user_id/"); 
+               
 
      	dd($Cte);
         return 'Done';
+    }
+
+    public function uploader()
+    {
+    	return view('cte.upload');
     }
 }
