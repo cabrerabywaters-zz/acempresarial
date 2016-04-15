@@ -15,13 +15,18 @@ class CreateCTETable extends Migration
         Schema::create('ctes', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('company_id')->unsigned();
+            $table->integer('user_id')->unsigned();
             $table->dateTime('folder_issue_date');
-            $table->string('rut');
+            $table->string('issuer_rut');
             $table->text('address');
-            $table->string('tax_category');  
+            $table->string('tax_category'); 
+            $table->timestamps(); 
 
             $table->foreign('company_id')->references('id')->on('companies')
-                    ->onDelete('cascade');          
+                    ->onDelete('cascade');
+            $table->foreign('user_id')->references('id')->on('users')
+                    ->onDelete('cascade');  
+
         });
 
     }

@@ -14,91 +14,91 @@ class F29
 
     private $fields =
                 [
-                    'folio' => [
+                    'C07_folio' => [
                                     'label'=>'FOLIO',
                                     'code_offset'=>1,
                                     'value_offset'=>2,
                                     'name'=>'folio'
                                 ],
-                    'rut' => [
+                    'C03_rut' => [
                                     'label'=>'RUT',
                                     'code_offset'=>1,
                                     'value_offset'=>2,
                                     'name'=>'rut'
                                 ],
-                    'period' => [
+                    'C15_period' => [
                                     'label'=>'PERIODO',
                                     'code_offset'=>1,
                                     'value_offset'=>2,
                                     'name'=>'period'
                                 ],
-                    'net_ppm_det' => [
+                    'C062_net_ppm_det' => [
                                     'label'=>'PPM NETO DET.',
                                     'code_offset'=>-1,
                                     'value_offset'=>1,
                                     'name'=>'net_ppm_det'
                                 ],
-                    'iva_tax_det' => [
+                    'C089_iva_tax_det' => [
                                     'label'=>'IMP. DETERM. IVA DETERM.',
                                     'code_offset'=>-1,
                                     'value_offset'=>1,
                                     'name'=>'iva_tax_det'
                                 ],
-                    'qty_receipt_documents' => [
+                    'C110_qty_receipt_documents' => [
                                     'label'=>'CANT. DE DCTOS. BOLETAS',
                                     'code_offset'=>-1,
                                     'value_offset'=>1,
                                     'name'=>'qty_receipt_documents'
                                 ],
-                    'debits_receipts' => [
+                    'C111_debits_receipts' => [
                                     'label'=>'DÉBITOS / BOLETAS',
                                     'code_offset'=>-1,
                                     'value_offset'=>1,
                                     'name'=>'debits_receipts'
                                 ],
-                    'first_category_ppm_rate' => [
+                    'C115_first_category_ppm_rate' => [
                                     'label'=>'TASA PPM 1RA. CATEGORIA',
                                     'code_offset'=>-1,
                                     'value_offset'=>1,
                                     'name'=>'first_category_ppm_rate'
                                 ],
-                    'sells_or_services_exempt_or_not' => [
+                    'C142_sells_or_services_exempt_or_not' => [
                                     'label'=>'VENTAS Y/O SERV. EXENTOS O NO',
                                     'code_offset'=>-1,
                                     'value_offset'=>2,
                                     'name'=>'sells_or_services_exempt_or_not'
                                 ],
-                    '10_percent_rate_retention_over_rent' => [
+                    'C151_10_percent_rate_retention_over_rent' => [
                                     'label'=>'RET, TASAS DE 10 % SOBRE LAS RENT.',
                                     'code_offset'=>-1,
                                     'value_offset'=>1,
                                     'name'=>'10_percent_rate_retention_over_rent'
                                 ],
-                    'debt_issued_invoices' => [
+                    'C502_debt_issued_invoices' => [
                                     'label'=>'DÉBITOS FACTURAS EMITIDAS',
                                     'code_offset'=>-1,
                                     'value_offset'=>1,
                                     'name'=>'debt_issued_invoices'
                                 ],
-                    'qty_issued_invoices' => [
+                    'C503_qty_issued_invoices' => [
                                     'label'=>'CANTIDAD FACTURAS EMITIDAS',
                                     'code_offset'=>-1,
                                     'value_offset'=>1,
                                     'name'=>'qty_issued_invoices'
                                 ],
-                    'qty_credit_memo' => [
+                    'C509_qty_credit_memo' => [
                                     'label'=>'CANT. DCTOS. NOTAS DE CRÉDITOS',
                                     'code_offset'=>-1,
                                     'value_offset'=>2,
                                     'name'=>'qty_credit_memo'
                                 ],
-                    'debt_issued_credit_memo' => [
+                    'C510_debt_issued_credit_memo' => [
                                     'label'=>'DÉBITOS NOTAS DE CRÉDITOS EMITIDAS',
                                     'code_offset'=>-1,
                                     'value_offset'=>1,
                                     'name'=>'debt_issued_credit_memo'
                                 ],
-                    'credit_iva_tax_electronic_documents' => [
+                    'C511_credit_iva_tax_electronic_documents' => [
                                     'label'=>'CRÉD. IVA POR DCTOS. ELECTRONICOS',
                                     'code_offset'=>-1,
                                     'value_offset'=>1,
@@ -110,13 +110,13 @@ class F29
                                     'value_offset'=>2,
                                     'name'=>'qty_buy_invoice_rec_ret_tot_e'
                                 ],
-                    'qty_invoices_received_from_activity' => [
+                    'C519_qty_invoices_received_from_activity' => [
                                     'label'=>'CANT. DE DCTOS. FACT. RECIB. DEL GIRO',
                                     'code_offset'=>-1,
                                     'value_offset'=>1,
                                     'name'=>'qty_invoices_received_from_activity'
                                 ],
-                    'credit_rec_reint_fact_from_activity' => [
+                    'C520_credit_rec_reint_fact_from_activity' => [
                                     'label'=>'CRÉDITO REC. Y REINT./FACT. DEL GIRO',
                                     'code_offset'=>-1,
                                     'value_offset'=>1,
@@ -134,31 +134,31 @@ class F29
                                     'value_offset'=>1,
                                     'name'=>'credit_recup_reint_credit_memo'
                                 ],
-                    'total_credits' => [
+                    'C537_total_credits' => [
                                     'label'=>'TOTAL CRÉDITOS',
                                     'code_offset'=>-1,
                                     'value_offset'=>1,
                                     'name'=>'total_credits'
                                 ],
-                    'total_debits' => [
+                    'C538_total_debits' => [
                                     'label'=>'TOTAL DÉBITOS',
                                     'code_offset'=>-1,
                                     'value_offset'=>1,
                                     'name'=>'total_debits'
                                 ],
-                    'determined_total' => [
+                    'C547_determined_total' => [
                                     'label'=>'TOTAL DETERMINADO',
                                     'code_offset'=>-1,
                                     'value_offset'=>1,
                                     'name'=>'determined_total'
                                 ],
-                    'taxable_income' => [
+                    'C563_taxable_income' => [
                                     'label'=>'BASE IMPONIBLE',
                                     'code_offset'=>-1,
                                     'value_offset'=>1,
                                     'name'=>'taxable_income'
                                 ],
-                    'previous_remainder_change_suj_per' => [
+                    'C573_previous_remainder_change_suj_per' => [
                                     'label'=>'REMANENTE ANT. CAMBIO SUJ. PER.',
                                     'code_offset'=>-1,
                                     'value_offset'=>2,
@@ -170,25 +170,25 @@ class F29
                                     'value_offset'=>2,
                                     'name'=>'net_amount_buy_invoices_received'
                                 ],
-                    'sub_total_determined_tax_front' => [
+                    'C595_sub_total_determined_tax_front' => [
                                     'label'=>'SUB TOTAL IMP. DETERMINADO ANVERSO',
                                     'code_offset'=>-1,
                                     'value_offset'=>1,
                                     'name'=>'sub_total_determined_tax_front'
                                 ],
-                    'imputable_changable_advances_suj' => [
+                    'C598_imputable_changable_advances_suj' => [
                                     'label'=>'ANTICIPO A IMPUTAR / CAMBIO DE SUJ.',
                                     'code_offset'=>-1,
                                     'value_offset'=>1,
                                     'name'=>'imputable_changable_advances_suj'
                                 ],
-                    'total_imputable_catch_credit' => [
+                    'C723_total_imputable_catch_credit' => [
                                     'label'=>'TOTAL CREDITO CAPACITACION A',
                                     'code_offset'=>-1,
                                     'value_offset'=>2,
                                     'name'=>'total_imputable_catch_credit'
                                 ],
-                    'rem_catch_credit_pediod' => [
+                    'C724_rem_catch_credit_pediod' => [
                                     'label'=>'REM CRED CAPACITACION, PERIODO',
                                     'code_offset'=>-1,
                                     'value_offset'=>2,

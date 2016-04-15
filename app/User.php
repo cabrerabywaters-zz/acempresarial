@@ -29,6 +29,6 @@ class User extends Authenticatable
      */
     public function companies()
     {
-        return $this->belongsToMany('acempresarial\Models\Company');
+        return $this->belongsToMany('acempresarial\Models\Company')->withTimestamps();
     }
 }

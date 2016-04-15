@@ -5,6 +5,8 @@ namespace acempresarial\Http\Controllers;
 use Illuminate\Http\Request;
 use acempresarial\Http\Requests;
 use acempresarial\Repositories\CTE\CteUploaderRepository;
+use acempresarial\Repositories\CTE\CteSaverRepository;
+
 
 
 //use Htmldom;
@@ -95,14 +97,14 @@ class CTEsController extends Controller
      * @return json           success/fail
      */
     public function upload(Request $request, $user_id,
-    	CteUploaderRepository $uploadManager)
-    {
-      
-        $file = $request->file('file');      
-        $Cte = $uploadManager->upload($file,"uploads/ctes/$user_id/"); 
-               
-
-     	dd($Cte);
+    	CteUploaderRepository $uploadManager, CteSaverRepository $cte)
+    {     
+        $file = $request->file('file'); 
+            
+        $CTE = $uploadManager->upload($file,"uploads/ctes/$user_id/"); 
+        
+        $CTE = $cte->store($CTE);
+     
         return 'Done';
     }
 

@@ -9,4 +9,9 @@ class F22 extends Model
      protected $guarded = [
         'id'
     ];
+
+     public function cte()
+    {
+        return $this->belongsTo('acempresarial\Models\Cte');
+    }
 }

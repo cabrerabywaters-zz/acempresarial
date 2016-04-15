@@ -95,9 +95,27 @@ class PrimaryInformation
                 elseif ($field['type']=="multiple") {
                     if ($content == $field['label']) {
                         $next = 1;
-                        while (!$this->helper->startsWith($xml['page'][0]['text'][$position + $next], $field['next_label'])) {
+                        if ($field['label'] == "Conformación de la sociedad" &&
+                            $this->helper->startsWith(
+                                $this->helper->extract_value($xml['page'][0]['text'][$position + $next]),
+                                 $field['next_label'])
+                            ) {
+                            $result[$field['name']][] = [];
+                            break;
+                        }
+                     
+                        while (!$this->helper->startsWith(
+                            $this->helper->extract_value($xml['page'][0]['text'][$position + $next]),
+                            $field['next_label'])) {
+
+                            if($field['label']=="Representante(s) Legal(es)" && $xml['page'][0]['text'][$position + $next]=="Participación en sociedades vigentes (2)")
+                            {
+                                break;
+                            }
+
                             $result[$field['name']][] = $xml['page'][0]['text'][$position + $next];
                             $next++;
+                           
                         }
                     }
                 }

@@ -156,6 +156,8 @@ return [
         acempresarial\Providers\EventServiceProvider::class,
         acempresarial\Providers\RouteServiceProvider::class,
         Orchestra\Parser\XmlServiceProvider::class,
+        'Gvb\Whoops\ServiceProvider',
+        GeneaLabs\LaravelCaffeine\LaravelCaffeineServiceProvider::class,
         //Yangqi\Htmldom\HtmldomServiceProvider::class,
 
 

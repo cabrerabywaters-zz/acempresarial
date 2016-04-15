@@ -17,4 +17,9 @@ class Company extends Model
     {
         return $this->belongsToMany('acempresarial\User');
     }
+
+     public function cte()
+    {
+    	return $this->hasMany('acempresarial\Models\Cte')->withTimestamps();         
+    }
 }

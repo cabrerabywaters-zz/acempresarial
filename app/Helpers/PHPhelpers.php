@@ -1,6 +1,8 @@
 <?php
 namespace acempresarial\Helpers;
 
+use Carbon\Carbon;
+
 class PHPhelpers
 {
     /**
@@ -25,7 +27,45 @@ class PHPhelpers
          * @return bool           [description]
          */
         public function startsWith($haystack, $needle)
-        {            // search backwards starting from haystack length characters from the end
+        {           
+           
+         // search backwards starting from haystack length characters from the end
              return $needle === "" || strrpos($haystack, $needle, -strlen($haystack)) !== false;
+        }
+
+        /**
+         * Converts Chilean datetime to DB datetime string
+         * @param [type] $date [description]
+         */
+        public function CHL_datetime_to_DB($date)
+        {
+            try {
+                $formatted_date = Carbon::createFromFormat('d/m/Y H:i', $date)
+                    ->toDateTimeString();
+            } catch (Exception $e) {
+                dd('Message: ' .$e->getMessage()) ;
+            }
+            return $formatted_date;
+        }
+
+        /**
+         * Converts Chilean date with sepparated with -
+         *  to DB datetime string
+         * @param $date [description]
+         */
+        public function CHL_date_to_DB($date)
+        {          
+        	$formatted_date = Carbon::createFromFormat('d-m-Y','01−09−2008');
+            return $formatted_date;
+        }
+
+         /**
+         * Converts a given Month and Year to a DB datetime string         *  
+         * @param $date [description]
+         */
+        public function month_year_to_DB_datetime($month,$year)
+        {          
+            $formatted_date = Carbon::createFromFormat('d-m-Y H:i',"01-$month-$year 00:00");
+            return $formatted_date;
         }
 }

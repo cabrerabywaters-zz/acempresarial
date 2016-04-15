@@ -10,7 +10,7 @@ class UploadHelpers
 {
     public function __construct(UploadedFile $file, $uploadPath)
     {
-        $this->name = time() . $file->getClientOriginalName();
+        $this->name = time() . str_replace(" ","_",$file->getClientOriginalName());
         $this->raw_name = pathinfo($this->name, PATHINFO_FILENAME);
         $this->path = $uploadPath ;
         $this->file = $file;

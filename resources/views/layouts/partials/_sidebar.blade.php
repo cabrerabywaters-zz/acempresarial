@@ -31,7 +31,7 @@
                     <i class="fa fa-angle-left pull-right"></i>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="../tables/simple.html"><i class="fa fa-circle-o"></i>Mis Carpetas</a></li>
+                    <li><a href="/cte"><i class="fa fa-circle-o"></i>Mis Carpetas</a></li>
                     <li><a href="/ctes/upload"><i class="fa fa-circle-o"></i>Subir Carpeta</a></li>
                 </ul>
             </li>
