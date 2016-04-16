@@ -17,6 +17,7 @@
 <section class="content">
     <!-- Default box -->
     <div class="box">
+
         <div class="box-header with-border">
             <h3 class="box-title">Haga click para subir un archivo o arrastre un PDF</h3>
             <div class="box-tools pull-right">
@@ -34,6 +35,7 @@
                         <form id="my-awesome-dropzone"
                             action="/users/{{Auth::user()->id}}/ctes" class="dropzone">
                             {{ csrf_field()}}
+                            
                         </form>
                     </div>
                 </div>

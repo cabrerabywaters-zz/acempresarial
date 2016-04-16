@@ -3,15 +3,29 @@
 namespace acempresarial\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use Carbon\Carbon;
 
 class F29 extends Model
 {
-     protected $guarded = [
+    protected $guarded = [
         'id'
     ];
 
-     public function cte()
+    public function cte()
     {
         return $this->belongsTo('acempresarial\Models\Cte');
     }
+
+
+
+     /**
+	 * The string attribute that should be cast to custom carbon date.
+	 *
+	 * @var array
+	 */
+
+	public function getC15PeriodAttribute($value)
+	{
+	    return Carbon::createFromFormat('Y-m-d H:i:s', $value);
+	}
 }

@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+
+<pdf2xml>
+<page number="1" position="absolute" top="0" left="0" height="1188" width="918">
+	<fontspec id="0" size="10" family="Helvetica" color="#003265"/>
+	<fontspec id="1" size="10" family="Helvetica" color="#003265"/>
+	<fontspec id="2" size="7" family="Helvetica" color="#003265"/>
+<text top="30" left="349" width="225" height="11" font="0"><b>CARPETA TRIBUTARIA ELECTRÓNICA</b></text>
+<text top="44" left="410" width="103" height="11" font="0"><b>PERSONALIZADA</b></text>
+<text top="89" left="58" width="475" height="11" font="0"><b>Importante:</b> Esta información es válida para la fecha y hora en que se generó la carpeta.</text>
+<text top="117" left="58" width="783" height="11" font="1">Toda declaración y pago que sea presentada en papel retrasa la actualización de las bases de datos del SII, por lo que, eventualmente, podrían no</text>
+<text top="132" left="58" width="137" height="11" font="1">aparecer en esta carpeta.</text>
+<text top="178" left="56" width="105" height="11" font="1">Nombre del emisor:</text>
+<text top="178" left="299" width="205" height="11" font="1">MASSIEL ALEJANDRA ARCOS PINO</text>
+<text top="197" left="56" width="87" height="11" font="1">RUT del emisor:</text>
+<text top="197" left="299" width="67" height="11" font="1">8537521 − 0</text>
+<text top="217" left="56" width="189" height="11" font="1">Fecha de generación de la carpeta:</text>
+<text top="217" left="299" width="93" height="11" font="1">19/10/2011 17:34</text>
+<text top="236" left="56" width="139" height="11" font="0"><b>Datos del Contribuyente</b></text>
+<text top="256" left="56" width="166" height="11" font="1">Fecha de Inicio de Actividades:</text>
+<text top="256" left="254" width="67" height="11" font="1">28−10−1994</text>
+<text top="276" left="56" width="133" height="11" font="1">Actividades Económicas:</text>
+<text top="276" left="254" width="397" height="11" font="1">726000     EMPRESAS DE SERVICIOS INTEGRALES DE INFORMATICA</text>
+<text top="295" left="56" width="106" height="11" font="1">Categoría tributaria:</text>
+<text top="295" left="254" width="101" height="11" font="1">Segunda categoría</text>
+<text top="315" left="56" width="52" height="11" font="1">Domicilio:</text>
+<text top="315" left="254" width="263" height="11" font="1">TOMAS MORO 1075 , Dpto. 405 , LAS CONDES</text>
+<text top="334" left="56" width="63" height="11" font="1">Sucursales:</text>
+<text top="361" left="56" width="168" height="11" font="1">Últimos documentos timbrados:</text>
+<text top="354" left="254" width="161" height="11" font="1">BOLETAS DE HONORARIOS</text>
+<text top="368" left="254" width="257" height="11" font="1">BOLETAS DE HONORARIOS ELECTRONICAS</text>
+<text top="354" left="726" width="67" height="11" font="1">06−04−1995</text>
+<text top="368" left="726" width="67" height="11" font="1">30−09−2011</text>
+<text top="390" left="56" width="139" height="11" font="1">Observaciones tributarias:</text>
+<text top="390" left="257" width="129" height="11" font="1">No tiene observaciones.</text>
+<text top="412" left="56" width="415" height="11" font="0"><b>Información proporcionada por el contribuyente para fines tributarios (1)</b></text>
+<text top="439" left="396" width="127" height="11" font="1">Nombre o Razón Social</text>
+<text top="439" left="670" width="25" height="11" font="1">RUT</text>
+<text top="432" left="779" width="50" height="11" font="1">Fecha de</text>
+<text top="446" left="768" width="73" height="11" font="1">Incorporación</text>
+<text top="466" left="56" width="146" height="11" font="1">Representante(s) Legal(es)</text>
+<text top="485" left="299" width="307" height="11" font="1">− No existe(n) representante(s) legal(es) para este RUT −</text>
+<text top="505" left="56" width="155" height="11" font="1">Conformación de la sociedad</text>
+<text top="525" left="299" width="196" height="11" font="1">− No existen socios para este RUT −</text>
+<text top="544" left="56" width="215" height="11" font="1">Participación en sociedades vigentes (2)</text>
+<text top="564" left="299" width="209" height="11" font="1">− No existen sociedades para el RUT −</text>
+<text top="583" left="56" width="478" height="11" font="1">(1): Información declarada por el contribuyente y que puede haber sufrido modificaciones.</text>
+<text top="598" left="56" width="613" height="11" font="1">(2): La vigencia de estas sociedades está asociada a la existencia de un Inicio de Actividades, sin Término de Giro.</text>
+<text top="617" left="49" width="181" height="11" font="0"><b>Propiedades y Bienes Raíces(3)</b></text>
+<text top="651" left="60" width="45" height="11" font="1">Comuna</text>
+<text top="651" left="152" width="18" height="11" font="1">Rol</text>
+<text top="651" left="257" width="50" height="11" font="1">Dirección</text>
+<text top="651" left="403" width="41" height="11" font="1">Destino</text>
+<text top="651" left="525" width="71" height="11" font="1">Avalúo Fiscal</text>
+<text top="637" left="656" width="38" height="11" font="1">Cuotas</text>
+<text top="651" left="651" width="47" height="11" font="1">vencidas</text>
+<text top="666" left="649" width="51" height="11" font="1">por pagar</text>
+<text top="637" left="728" width="38" height="11" font="1">Cuotas</text>
+<text top="651" left="714" width="65" height="11" font="1">vigentes por</text>
+<text top="666" left="732" width="31" height="11" font="1">pagar</text>
+<text top="644" left="801" width="53" height="11" font="1">Condición</text>
+<text top="658" left="820" width="15" height="11" font="1">(4)</text>
+<text top="685" left="49" width="23" height="11" font="1">LAS</text>
+<text top="700" left="49" width="51" height="11" font="1">CONDES</text>
+<text top="692" left="124" width="74" height="11" font="1">01258−00499</text>
+<text top="685" left="204" width="133" height="11" font="1">TOMAS MORO 1075 DP</text>
+<text top="700" left="204" width="20" height="11" font="1">405</text>
+<text top="692" left="365" width="73" height="11" font="1">HABITACION</text>
+<text top="692" left="531" width="60" height="11" font="1">44.928.698</text>
+<text top="692" left="666" width="18" height="11" font="1">NO</text>
+<text top="692" left="741" width="11" height="11" font="1">SI</text>
+<text top="692" left="803" width="49" height="11" font="1">AFECTO</text>
+<text top="719" left="49" width="23" height="11" font="1">LAS</text>
+<text top="733" left="49" width="51" height="11" font="1">CONDES</text>
+<text top="726" left="124" width="358" height="11" font="1">01258−00734 TOMAS MORO 1075 BX 120 ESTACIONAMIENTO</text>
+<text top="726" left="534" width="53" height="11" font="1">3.006.904</text>
+<text top="726" left="666" width="18" height="11" font="1">NO</text>
+<text top="726" left="741" width="11" height="11" font="1">SI</text>
+<text top="726" left="803" width="49" height="11" font="1">AFECTO</text>
+<text top="753" left="49" width="23" height="11" font="1">LAS</text>
+<text top="767" left="49" width="51" height="11" font="1">CONDES</text>
+<text top="760" left="124" width="74" height="11" font="1">01258−00896</text>
+<text top="753" left="204" width="133" height="11" font="1">TOMAS MORO 1075 BD</text>
+<text top="767" left="204" width="20" height="11" font="1">144</text>
+<text top="753" left="365" width="63" height="11" font="1">BODEGA Y</text>
+<text top="767" left="365" width="80" height="11" font="1">ALMACENAJE</text>
+<text top="760" left="539" width="43" height="11" font="1">631.373</text>
+<text top="760" left="666" width="18" height="11" font="1">NO</text>
+<text top="760" left="741" width="11" height="11" font="1">SI</text>
+<text top="760" left="803" width="49" height="11" font="1">AFECTO</text>
+<text top="787" left="49" width="358" height="11" font="1">(3): La presente información no acredita dominio de una propiedad.</text>
+<text top="801" left="49" width="816" height="11" font="1">(4): La condición exento/afecto ha sido determinada de los datos actuales del catastro de Bienes Raíces, considerando las modificaciones recientes de la</text>
+<text top="816" left="49" width="384" height="11" font="1">tasación, y no según la existencia de cuotas de contribuciones emitidas.</text>
+<text top="835" left="56" width="221" height="11" font="0"><b>Boletas de Honorarios Electrónicas (5)</b></text>
+<text top="855" left="131" width="48" height="11" font="1">Períodos</text>
+<text top="855" left="316" width="83" height="11" font="1">Honorario bruto</text>
+<text top="855" left="502" width="117" height="11" font="1">Retención de terceros</text>
+<text top="855" left="704" width="118" height="11" font="1">PPM de contribuyente</text>
+<text top="874" left="56" width="79" height="11" font="1">OCTUBRE−11</text>
+<text top="894" left="56" width="98" height="11" font="1">SEPTIEMBRE−11</text>
+<text top="894" left="410" width="47" height="11" font="1">2222222</text>
+<text top="894" left="619" width="40" height="11" font="1">222222</text>
+<text top="894" left="856" width="7" height="11" font="1">0</text>
+<text top="914" left="56" width="72" height="11" font="1">AGOSTO−11</text>
+<text top="914" left="410" width="47" height="11" font="1">2222222</text>
+<text top="914" left="619" width="40" height="11" font="1">222222</text>
+<text top="914" left="856" width="7" height="11" font="1">0</text>
+<text top="933" left="56" width="54" height="11" font="1">JULIO−11</text>
+<text top="933" left="410" width="47" height="11" font="1">2222222</text>
+<text top="933" left="619" width="40" height="11" font="1">222222</text>
+<text top="933" left="856" width="7" height="11" font="1">0</text>
+<text top="953" left="56" width="56" height="11" font="1">JUNIO−11</text>
+<text top="953" left="410" width="47" height="11" font="1">4444444</text>
+<text top="953" left="619" width="40" height="11" font="1">444444</text>
+<text top="953" left="856" width="7" height="11" font="1">0</text>
+<text top="972" left="56" width="56" height="11" font="1">MAYO−11</text>
+<text top="992" left="56" width="55" height="11" font="1">ABRIL−11</text>
+<text top="1011" left="56" width="64" height="11" font="1">MARZO−11</text>
+<text top="1031" left="56" width="78" height="11" font="1">FEBRERO−11</text>
+<text top="1050" left="56" width="63" height="11" font="1">ENERO−11</text>
+<text top="1070" left="56" width="87" height="11" font="1">DICIEMBRE−10</text>
+<text top="1089" left="56" width="92" height="11" font="1">NOVIEMBRE−10</text>
+<text top="1109" left="223" width="473" height="11" font="1">− No se registran Boletas de Honorarios Electrónicas emitidas en los últimos 12 meses −</text>
+<text top="1129" left="56" width="784" height="11" font="1">(5): Además de las Boletas de Honorarios Electrónicas, un contribuyente puede tener boletas de honorarios emitidas en papel, cuyo detalle no está</text>
+<text top="1165" left="21" width="13" height="8" font="2">1/7</text>
+</page>
+<page number="2" position="absolute" top="0" left="0" height="1188" width="918">
+<text top="27" left="56" width="169" height="11" font="1">disponible en forma electrónica.</text>
+<text top="1165" left="21" width="13" height="8" font="2">2/7</text>
+</page>
+<page number="3" position="absolute" top="0" left="0" height="1188" width="918">
+<text top="26" left="48" width="154" height="11" font="0"><b>Declaraciones de IVA (F29)</b></text>
+<text top="45" left="234" width="450" height="11" font="1">− No existen declaraciones de IVA recibidas en los últimos 36 períodos mensuales −</text>
+<text top="1165" left="21" width="13" height="8" font="2">3/7</text>
+</page>
+<page number="4" position="absolute" top="0" left="0" height="1188" width="918">
+	<fontspec id="3" size="6" family="Helvetica" color="#003265"/>
+<text top="26" left="48" width="167" height="11" font="0"><b>Declaraciones de Renta (F22)</b></text>
+<text top="43" left="271" width="105" height="11" font="1">Año Tributario 2011</text>
+<text top="43" left="724" width="23" height="11" font="1">1 / 4</text>
+<text top="82" left="63" width="129" height="11" font="0"><b>REPUBLICA DE CHILE</b></text>
+<text top="96" left="63" width="217" height="11" font="0"><b>SERVICIO DE IMPUESTOS INTERNOS</b></text>
+<text top="111" left="63" width="55" height="11" font="1">FORM. 22</text>
+<text top="82" left="291" width="131" height="11" font="0"><b>AÑO TRIBUTARIO2011</b></text>
+<text top="96" left="291" width="208" height="11" font="0"><b>IMPUESTOS ANUALES A LA RENTA</b></text>
+<text top="82" left="648" width="104" height="11" font="0"><b>  07   Nº</b> 92926981</text>
+<text top="150" left="63" width="67" height="11" font="0"><b>ROL UNICO</b></text>
+<text top="164" left="63" width="74" height="11" font="0"><b>TRIBUTARIO</b></text>
+<text top="150" left="251" width="13" height="11" font="0"><b>01</b></text>
+<text top="150" left="281" width="95" height="11" font="0"><b>Apellido Paterno</b></text>
+<text top="164" left="281" width="80" height="11" font="0"><b>o razón social</b></text>
+<text top="150" left="450" width="13" height="11" font="0"><b>02</b></text>
+<text top="150" left="481" width="97" height="11" font="0"><b>Apellido Materno</b></text>
+<text top="150" left="650" width="13" height="11" font="0"><b>05</b></text>
+<text top="150" left="680" width="52" height="11" font="0"><b>Nombres</b></text>
+<text top="184" left="63" width="13" height="11" font="0"><b>03</b></text>
+<text top="184" left="93" width="60" height="11" font="1">8537521−0</text>
+<text top="184" left="251" width="43" height="11" font="1">ARCOS</text>
+<text top="184" left="450" width="29" height="11" font="1">PINO</text>
+<text top="184" left="650" width="126" height="11" font="1">MASSIEL ALEJANDRA</text>
+<text top="203" left="63" width="13" height="11" font="0"><b>06</b></text>
+<text top="203" left="92" width="145" height="11" font="1">Calle    Nº         Of.Depto.   </text>
+<text top="203" left="434" width="13" height="11" font="0"><b>09</b></text>
+<text top="203" left="464" width="47" height="11" font="1">Teléfono</text>
+<text top="203" left="670" width="13" height="11" font="0"><b>08</b></text>
+<text top="203" left="701" width="45" height="11" font="1">Comuna</text>
+<text top="223" left="63" width="140" height="11" font="1"> TOMAS MORO 1075 405</text>
+<text top="223" left="434" width="50" height="11" font="1"> 7272521</text>
+<text top="223" left="670" width="81" height="11" font="1"> LAS CONDES</text>
+<text top="242" left="63" width="13" height="11" font="0"><b>13</b></text>
+<text top="242" left="92" width="203" height="11" font="1">Actividad, profesión o giro del negocio</text>
+<text top="242" left="434" width="13" height="11" font="0"><b>14</b></text>
+<text top="242" left="464" width="150" height="11" font="1">Código actividad económica</text>
+<text top="242" left="670" width="160" height="11" font="0"><b>903 </b>RUT. del Representante</text>
+<text top="262" left="63" width="344" height="11" font="1"> EMPRESAS DE SERVICIOS INTEGRALES DE INFORMATICA</text>
+<text top="262" left="434" width="43" height="11" font="1"> 726000</text>
+<text top="281" left="63" width="13" height="11" font="0"><b>55</b></text>
+<text top="281" left="92" width="99" height="11" font="1">Correo Electrónico</text>
+<text top="301" left="63" width="182" height="11" font="1"> MASSIEL.ARCOS@GMAIL.COM</text>
+<text top="322" left="61" width="13" height="11" font="0"><b>15</b></text>
+<text top="321" left="84" width="121" height="8" font="3">Fecha Vencimiento Declaración </text>
+<text top="322" left="478" width="56" height="11" font="1">042011 <b>53</b></text>
+<text top="321" left="550" width="29" height="8" font="3">Región </text>
+<text top="322" left="843" width="13" height="11" font="1">13</text>
+<text top="339" left="61" width="13" height="11" font="0"><b>55</b></text>
+<text top="338" left="84" width="72" height="8" font="3">Correo Electrónico </text>
+<text top="339" left="339" width="201" height="11" font="1">MASSIEL.ARCOS@GMAIL.COM <b>110</b></text>
+<text top="338" left="550" width="221" height="8" font="3">Rentas percibidas del Arts. 42 Nº2 (Honorarios) y 48 (Rem.</text>
+<text top="348" left="550" width="146" height="8" font="3">Directores S.A.), Según Recuadro N°1 </text>
+<text top="339" left="810" width="47" height="11" font="1">2441880</text>
+<text top="361" left="61" width="20" height="11" font="0"><b>119</b></text>
+<text top="360" left="84" width="241" height="8" font="3">Remanente Impto.Invers./Art. 55 bis DFL N°2/59, Fdos.Invers.42</text>
+<text top="370" left="84" width="139" height="8" font="3">bis y/o 57 bis, prov. líneas 29 y/o 30. </text>
+<text top="361" left="471" width="69" height="11" font="1">1043298 <b>155</b></text>
+<text top="360" left="550" width="227" height="8" font="3">Rentas de capitales mobiliarios (Art. 20 N°2), Retiros de ELD</text>
+<text top="370" left="550" width="199" height="8" font="3">(Art. 42 ter) y Ganancias de Capital (Art. 17 N°8), etc </text>
+<text top="361" left="830" width="27" height="11" font="1">6461</text>
+<text top="384" left="61" width="20" height="11" font="0"><b>158</b></text>
+<text top="383" left="84" width="38" height="8" font="3">Sub Total </text>
+<text top="384" left="465" width="76" height="11" font="1">20846717 <b>161</b></text>
+<text top="383" left="550" width="184" height="8" font="3">Rentas del Art. 42 Nº1 (sueldos, pensiones, etc.) </text>
+<text top="384" left="803" width="53" height="11" font="1">18401326</text>
+<text top="401" left="61" width="20" height="11" font="0"><b>162</b></text>
+<text top="400" left="84" width="243" height="8" font="3">Crédito por Impuesto Unico de Segunda Categoría (Art. 56 N° 2) </text>
+<text top="401" left="471" width="69" height="11" font="1">1043298 <b>169</b></text>
+<text top="400" left="550" width="237" height="8" font="3">Pérdida en operaciones de capitales mobiliarios y ganancias de</text>
+<text top="410" left="550" width="177" height="8" font="3">capital según líneas 2, 7 y 8 (ver instrucciones) </text>
+<text top="401" left="830" width="27" height="11" font="1">2950</text>
+<text top="423" left="61" width="20" height="11" font="0"><b>170</b></text>
+<text top="422" left="84" width="239" height="8" font="3">BASE IMPONIBLE DE GLOBAL COMPLEMENTARIO (Registre</text>
+<text top="432" left="84" width="110" height="8" font="3">sólo si diferencia es positiva) </text>
+<text top="423" left="471" width="69" height="11" font="1">5235368 <b>198</b></text>
+<text top="422" left="550" width="233" height="8" font="3">Retenciones por rentas declaradas en línea 6 (Recuadro N°1) </text>
+<text top="423" left="817" width="40" height="11" font="1">348840</text>
+<text top="446" left="61" width="20" height="11" font="0"><b>301</b></text>
+<text top="445" left="84" width="108" height="8" font="3">Nombre Institución Bancaria </text>
+<text top="446" left="414" width="126" height="11" font="1">CHILE−EDWARDS <b>304</b></text>
+<text top="445" left="550" width="244" height="8" font="3">IMPUESTO GLOBAL COMPLEMENTARIO Y/O DEBITO FISCAL</text>
+<text top="455" left="550" width="64" height="8" font="3">DETERMINADO </text>
+<text top="446" left="803" width="54" height="11" font="1">−1043298</text>
+<text top="469" left="61" width="20" height="11" font="0"><b>305</b></text>
+<text top="468" left="84" width="237" height="8" font="3">RESULTADO LIQUIDACION ANUAL IMPUESTO RENTA (Si el</text>
+<text top="478" left="84" width="219" height="8" font="3">resultado es negativo o cero, deberá declarar por Internet) </text>
+<text top="469" left="464" width="76" height="11" font="1">−1392138 <b>306</b></text>
+<text top="468" left="550" width="73" height="8" font="3">Numero de Cuenta </text>
+<text top="469" left="797" width="60" height="11" font="1">630133309</text>
+<text top="491" left="61" width="20" height="11" font="0"><b>315</b></text>
+<text top="490" left="84" width="77" height="8" font="3">Fecha Presentación </text>
+<text top="491" left="458" width="83" height="11" font="1">28/04/2011 <b>461</b></text>
+<text top="490" left="550" width="136" height="8" font="3">Honorarios Anuales Con Retención. </text>
+<text top="491" left="810" width="47" height="11" font="1">3488400</text>
+<text top="508" left="61" width="20" height="11" font="0"><b>467</b></text>
+<text top="507" left="84" width="64" height="8" font="3">Total Honorarios </text>
+<text top="508" left="471" width="69" height="11" font="1">2441880 <b>492</b></text>
+<text top="507" left="550" width="119" height="8" font="3">Impuesto Retenido Actualizado </text>
+<text top="508" left="817" width="40" height="11" font="1">348840</text>
+<text top="525" left="61" width="20" height="11" font="0"><b>494</b></text>
+<text top="524" left="84" width="231" height="8" font="3">Gastos Presuntos: 30 Porciento sobre el código 547, con tope</text>
+<text top="534" left="84" width="47" height="8" font="3">$6.768.900. </text>
+<text top="525" left="471" width="69" height="11" font="1">1046520 <b>547</b></text>
+<text top="524" left="550" width="85" height="8" font="3">Total Ingresos Brutos. </text>
+<text top="525" left="810" width="47" height="11" font="1">3488400</text>
+<text top="548" left="61" width="20" height="11" font="0"><b>611</b></text>
+<text top="547" left="84" width="109" height="8" font="3">Sumatoria códigos 198 + 54. </text>
+<text top="548" left="478" width="63" height="11" font="1">348840 <b>618</b></text>
+<text top="547" left="550" width="99" height="8" font="3">Total Rentas Retenciones </text>
+<text top="548" left="810" width="47" height="11" font="1">2441880</text>
+<text top="565" left="61" width="20" height="11" font="0"><b>619</b></text>
+<text top="564" left="84" width="70" height="8" font="3">Total Retenciones </text>
+<text top="565" left="478" width="63" height="11" font="1">348840 <b>750</b></text>
+<text top="564" left="550" width="235" height="8" font="3">Intereses pagados por créditos con garantía hipotecaria, según</text>
+<text top="574" left="550" width="40" height="8" font="3">Art. 55 bis </text>
+<text top="565" left="810" width="47" height="11" font="1">3145889</text>
+<text top="587" left="61" width="20" height="11" font="0"><b>751</b></text>
+<text top="586" left="84" width="148" height="8" font="3">Sumatoria códigos 750 y 740, negativa </text>
+<text top="587" left="471" width="69" height="11" font="1">3145889 <b>757</b></text>
+<text top="586" left="550" width="114" height="8" font="3">Sumatoria códigos 119 + 116. </text>
+<text top="587" left="810" width="47" height="11" font="1">1043298</text>
+<text top="604" left="61" width="20" height="11" font="0"><b>765</b></text>
+<text top="603" left="84" width="211" height="8" font="3">Ahorro Previsional Voluntario según inciso 1° Art.42 bis. </text>
+<text top="604" left="465" width="76" height="11" font="1">12465460 <b>766</b></text>
+<text top="603" left="550" width="148" height="8" font="3">Sumatoria códigos 822 y 765, negativa </text>
+<text top="604" left="803" width="53" height="11" font="1">12465460</text>
+<text top="621" left="61" width="20" height="11" font="0"><b>780</b></text>
+<text top="620" left="84" width="60" height="8" font="3">Tipo de Cuenta </text>
+<text top="621" left="509" width="38" height="11" font="1">C <b>8811</b></text>
+<text top="620" left="550" width="100" height="8" font="3">Moneda de la Declaración </text>
+<text top="621" left="833" width="23" height="11" font="1">CLP</text>
+<text top="640" left="63" width="98" height="11" font="0"><b>Folio Nº</b>92926981</text>
+<text top="663" left="65" width="153" height="11" font="0"><b>REMANENTE DE CREDITO</b></text>
+<text top="682" left="65" width="13" height="11" font="1">59</text>
+<text top="682" left="97" width="99" height="11" font="0"><b>SALDO A FAVOR</b></text>
+<text top="682" left="269" width="13" height="11" font="0"><b>85</b></text>
+<text top="682" left="301" width="47" height="11" font="1">1392138</text>
+<text top="682" left="414" width="7" height="11" font="1">+</text>
+<text top="702" left="65" width="13" height="11" font="1">60</text>
+<text top="702" left="97" width="123" height="11" font="1">Menos: Saldo puesto a</text>
+<text top="716" left="97" width="59" height="11" font="1">disposición</text>
+<text top="731" left="97" width="111" height="11" font="1">de los socios (Según</text>
+<text top="745" left="97" width="86" height="11" font="1">Recuadro N° 6).</text>
+<text top="702" left="269" width="13" height="11" font="0"><b>86</b></text>
+<text top="702" left="414" width="7" height="11" font="1">−</text>
+<text top="765" left="65" width="13" height="11" font="1">61</text>
+<text top="765" left="97" width="157" height="11" font="0"><b>DEVOLUCIÓN SOLICITADA</b></text>
+<text top="765" left="282" width="65" height="11" font="0"><b>87 </b>1392138</text>
+<text top="765" left="414" width="7" height="11" font="1">=</text>
+<text top="663" left="454" width="121" height="11" font="0"><b>IMPUESTO A PAGAR</b></text>
+<text top="682" left="454" width="131" height="11" font="1">62 Impuesto Adeudado</text>
+<text top="682" left="674" width="13" height="11" font="0"><b>90</b></text>
+<text top="682" left="808" width="7" height="11" font="1">+</text>
+<text top="702" left="454" width="189" height="11" font="1">63 Reajuste Art. 72 línea 60: 1.4%</text>
+<text top="702" left="674" width="13" height="11" font="0"><b>39</b></text>
+<text top="702" left="808" width="7" height="11" font="1">+</text>
+<text top="722" left="454" width="234" height="11" font="1">64 <b>TOTAL A PAGAR (Líneas 60 + 61) 91</b></text>
+<text top="722" left="808" width="7" height="11" font="1">=</text>
+<text top="741" left="454" width="191" height="11" font="0"><b>RECARGOS POR DECLARACIÓN</b></text>
+<text top="756" left="454" width="105" height="11" font="0"><b>FUERA DE PLAZO</b></text>
+<text top="770" left="454" width="221" height="11" font="1">(RECARGOS POR MORA EN EL PAGO)</text>
+<text top="789" left="454" width="205" height="11" font="1">65 MAS: Reajustes declaración fuera</text>
+<text top="804" left="477" width="45" height="11" font="1">de plazo</text>
+<text top="789" left="674" width="13" height="11" font="0"><b>92</b></text>
+<text top="789" left="808" width="7" height="11" font="1">+</text>
+<text top="823" left="454" width="153" height="11" font="1">66 MAS: Intereses y Multas</text>
+<text top="838" left="477" width="141" height="11" font="1">declaración fuera de plazo</text>
+<text top="823" left="674" width="13" height="11" font="0"><b>93</b></text>
+<text top="823" left="808" width="7" height="11" font="1">+</text>
+<text top="857" left="454" width="211" height="11" font="1">67 <b>TOTAL A PAGAR (Líneas 60 + 61</b></text>
+<text top="872" left="477" width="28" height="11" font="0"><b>+ 62)</b></text>
+<text top="857" left="674" width="13" height="11" font="0"><b>94</b></text>
+<text top="857" left="808" width="7" height="11" font="1">=</text>
+<text top="894" left="63" width="720" height="11" font="0"><b>Declaro bajo juramento que la información contenida en este documento es la expresión fiel de la verdad, por lo que asumo la</b></text>
+<text top="908" left="63" width="193" height="11" font="0"><b>responsabilidad correspondiente.</b></text>
+<text top="1165" left="21" width="13" height="8" font="2">4/7</text>
+</page>
+<page number="5" position="absolute" top="0" left="0" height="1188" width="918">
+<text top="26" left="271" width="105" height="11" font="1">Año Tributario 2010</text>
+<text top="26" left="724" width="23" height="11" font="1">2 / 4</text>
+<text top="65" left="63" width="129" height="11" font="0"><b>REPUBLICA DE CHILE</b></text>
+<text top="79" left="63" width="217" height="11" font="0"><b>SERVICIO DE IMPUESTOS INTERNOS</b></text>
+<text top="94" left="63" width="55" height="11" font="1">FORM. 22</text>
+<text top="65" left="291" width="131" height="11" font="0"><b>AÑO TRIBUTARIO2010</b></text>
+<text top="79" left="291" width="208" height="11" font="0"><b>IMPUESTOS ANUALES A LA RENTA</b></text>
+<text top="65" left="648" width="104" height="11" font="0"><b>  07   Nº</b> 90444110</text>
+<text top="133" left="63" width="67" height="11" font="0"><b>ROL UNICO</b></text>
+<text top="147" left="63" width="74" height="11" font="0"><b>TRIBUTARIO</b></text>
+<text top="133" left="251" width="13" height="11" font="0"><b>01</b></text>
+<text top="133" left="281" width="95" height="11" font="0"><b>Apellido Paterno</b></text>
+<text top="147" left="281" width="80" height="11" font="0"><b>o razón social</b></text>
+<text top="133" left="450" width="13" height="11" font="0"><b>02</b></text>
+<text top="133" left="481" width="97" height="11" font="0"><b>Apellido Materno</b></text>
+<text top="133" left="650" width="13" height="11" font="0"><b>05</b></text>
+<text top="133" left="680" width="52" height="11" font="0"><b>Nombres</b></text>
+<text top="167" left="63" width="13" height="11" font="0"><b>03</b></text>
+<text top="167" left="93" width="60" height="11" font="1">8537521−0</text>
+<text top="167" left="251" width="43" height="11" font="1">ARCOS</text>
+<text top="167" left="450" width="29" height="11" font="1">PINO</text>
+<text top="167" left="650" width="126" height="11" font="1">MASSIEL ALEJANDRA</text>
+<text top="186" left="63" width="13" height="11" font="0"><b>06</b></text>
+<text top="186" left="92" width="145" height="11" font="1">Calle    Nº         Of.Depto.   </text>
+<text top="186" left="434" width="13" height="11" font="0"><b>09</b></text>
+<text top="186" left="464" width="47" height="11" font="1">Teléfono</text>
+<text top="186" left="670" width="13" height="11" font="0"><b>08</b></text>
+<text top="186" left="701" width="45" height="11" font="1">Comuna</text>
+<text top="206" left="63" width="140" height="11" font="1"> TOMAS MORO 1075 405</text>
+<text top="206" left="434" width="50" height="11" font="1"> 7272521</text>
+<text top="206" left="670" width="81" height="11" font="1"> LAS CONDES</text>
+<text top="225" left="63" width="13" height="11" font="0"><b>13</b></text>
+<text top="225" left="92" width="203" height="11" font="1">Actividad, profesión o giro del negocio</text>
+<text top="225" left="434" width="13" height="11" font="0"><b>14</b></text>
+<text top="225" left="464" width="150" height="11" font="1">Código actividad económica</text>
+<text top="225" left="670" width="160" height="11" font="0"><b>903 </b>RUT. del Representante</text>
+<text top="245" left="63" width="344" height="11" font="1"> EMPRESAS DE SERVICIOS INTEGRALES DE INFORMATICA</text>
+<text top="245" left="434" width="43" height="11" font="1"> 726000</text>
+<text top="264" left="63" width="13" height="11" font="0"><b>55</b></text>
+<text top="264" left="92" width="99" height="11" font="1">Correo Electrónico</text>
+<text top="284" left="63" width="182" height="11" font="1"> MASSIEL.ARCOS@GMAIL.COM</text>
+<text top="305" left="61" width="13" height="11" font="0"><b>15</b></text>
+<text top="304" left="103" width="121" height="8" font="3">Fecha Vencimiento Declaración </text>
+<text top="305" left="482" width="56" height="11" font="1">042010 <b>53</b></text>
+<text top="304" left="560" width="29" height="8" font="3">Región </text>
+<text top="305" left="843" width="13" height="11" font="1">13</text>
+<text top="322" left="61" width="13" height="11" font="0"><b>55</b></text>
+<text top="321" left="103" width="72" height="8" font="3">Correo Electrónico </text>
+<text top="322" left="343" width="201" height="11" font="1">MASSIEL.ARCOS@GMAIL.COM <b>110</b></text>
+<text top="321" left="560" width="63" height="8" font="3">Rtas Perc. Rec2 </text>
+<text top="322" left="810" width="47" height="11" font="1">7087059</text>
+<text top="339" left="61" width="20" height="11" font="0"><b>119</b></text>
+<text top="338" left="103" width="203" height="8" font="3">Remanente Impto.Invers./Art. 55 bis. líneas 29 y/o 30. </text>
+<text top="339" left="482" width="63" height="11" font="1">282212 <b>155</b></text>
+<text top="338" left="560" width="61" height="8" font="3">Renta Cap Mob </text>
+<text top="339" left="843" width="13" height="11" font="1">71</text>
+<text top="356" left="61" width="20" height="11" font="0"><b>158</b></text>
+<text top="355" left="103" width="38" height="8" font="3">Sub Total </text>
+<text top="356" left="475" width="69" height="11" font="1">8970446 <b>161</b></text>
+<text top="355" left="560" width="63" height="8" font="3">Rta Art 42 Nro 1 </text>
+<text top="356" left="810" width="47" height="11" font="1">1883316</text>
+<text top="373" left="61" width="20" height="11" font="0"><b>162</b></text>
+<text top="372" left="103" width="85" height="8" font="3">Cred. Impto 2a Categ. </text>
+<text top="373" left="482" width="63" height="11" font="1">282212 <b>170</b></text>
+<text top="372" left="560" width="151" height="8" font="3">Base Imponible Global Complementario </text>
+<text top="373" left="810" width="47" height="11" font="1">5389758</text>
+<text top="390" left="61" width="20" height="11" font="0"><b>198</b></text>
+<text top="389" left="103" width="141" height="8" font="3">Retenc. Por Rtas Declaradas Línea 6 </text>
+<text top="390" left="475" width="69" height="11" font="1">1012437 <b>301</b></text>
+<text top="389" left="560" width="108" height="8" font="3">Nombre Institución Bancaria </text>
+<text top="390" left="753" width="104" height="11" font="1">CHILE−EDWARDS</text>
+<text top="407" left="61" width="20" height="11" font="0"><b>304</b></text>
+<text top="406" left="103" width="103" height="8" font="3">Impto. Gl. Complementario </text>
+<text top="407" left="475" width="70" height="11" font="1">−282212 <b>305</b></text>
+<text top="406" left="560" width="124" height="8" font="3">Resultado Liquidación Impto Rta </text>
+<text top="407" left="803" width="54" height="11" font="1">−1294649</text>
+<text top="424" left="61" width="20" height="11" font="0"><b>306</b></text>
+<text top="423" left="103" width="73" height="8" font="3">Numero de Cuenta </text>
+<text top="424" left="462" width="83" height="11" font="1">630133309 <b>315</b></text>
+<text top="423" left="560" width="77" height="8" font="3">Fecha Presentación </text>
+<text top="424" left="797" width="60" height="11" font="1">28/04/2010</text>
+<text top="441" left="61" width="20" height="11" font="0"><b>461</b></text>
+<text top="440" left="103" width="93" height="8" font="3">Honorarios Actualizados </text>
+<text top="441" left="469" width="76" height="11" font="1">10124370 <b>467</b></text>
+<text top="440" left="560" width="92" height="8" font="3">Total Renta Actualizada </text>
+<text top="441" left="810" width="47" height="11" font="1">7087059</text>
+<text top="458" left="61" width="20" height="11" font="0"><b>492</b></text>
+<text top="457" left="103" width="151" height="8" font="3">Impto. Retenido Actualizado Honorarios </text>
+<text top="458" left="475" width="69" height="11" font="1">1012437 <b>494</b></text>
+<text top="457" left="560" width="135" height="8" font="3">Gastos Presuntos Con Tope 15 Uta </text>
+<text top="458" left="810" width="47" height="11" font="1">3037311</text>
+<text top="475" left="61" width="20" height="11" font="0"><b>547</b></text>
+<text top="473" left="103" width="134" height="8" font="3">Total Ingresos Brutos, Actualizados </text>
+<text top="475" left="469" width="76" height="11" font="1">10124370 <b>611</b></text>
+<text top="473" left="560" width="99" height="8" font="3">Retenciones Actualizadas </text>
+<text top="475" left="810" width="47" height="11" font="1">1012437</text>
+<text top="492" left="61" width="20" height="11" font="0"><b>618</b></text>
+<text top="490" left="103" width="100" height="8" font="3">Total Rentas Actualizadas </text>
+<text top="492" left="475" width="69" height="11" font="1">7087059 <b>619</b></text>
+<text top="490" left="560" width="120" height="8" font="3">Total Retenciones Actualizadas </text>
+<text top="492" left="810" width="47" height="11" font="1">1012437</text>
+<text top="509" left="61" width="20" height="11" font="0"><b>750</b></text>
+<text top="507" left="103" width="152" height="8" font="3">Intereses Pagados Por Cred.C Garantía </text>
+<text top="509" left="475" width="69" height="11" font="1">3266545 <b>751</b></text>
+<text top="507" left="560" width="159" height="8" font="3">Rebaja Por Pago Dividendo Vivienda 2/59 </text>
+<text top="509" left="810" width="47" height="11" font="1">3266545</text>
+<text top="525" left="61" width="20" height="11" font="0"><b>757</b></text>
+<text top="524" left="103" width="46" height="8" font="3">Remanente </text>
+<text top="525" left="482" width="63" height="11" font="1">282212 <b>765</b></text>
+<text top="524" left="560" width="153" height="8" font="3">Ahorro previsional Voluntario Art. 42 bis. </text>
+<text top="525" left="817" width="40" height="11" font="1">314143</text>
+<text top="542" left="61" width="20" height="11" font="0"><b>766</b></text>
+<text top="541" left="103" width="128" height="8" font="3">Acc. de pago y Ahorro previsional </text>
+<text top="542" left="482" width="63" height="11" font="1">314143 <b>780</b></text>
+<text top="541" left="560" width="60" height="8" font="3">Tipo de Cuenta </text>
+<text top="542" left="848" width="9" height="11" font="1">C</text>
+<text top="559" left="61" width="27" height="11" font="0"><b>8811</b></text>
+<text top="558" left="103" width="100" height="8" font="3">Moneda de la Declaración </text>
+<text top="559" left="499" width="23" height="11" font="1">CLP</text>
+<text top="578" left="63" width="98" height="11" font="0"><b>Folio Nº</b>90444110</text>
+<text top="601" left="65" width="153" height="11" font="0"><b>REMANENTE DE CREDITO</b></text>
+<text top="621" left="65" width="13" height="11" font="1">55</text>
+<text top="621" left="97" width="99" height="11" font="0"><b>SALDO A FAVOR</b></text>
+<text top="621" left="269" width="13" height="11" font="0"><b>85</b></text>
+<text top="621" left="301" width="47" height="11" font="1">1294649</text>
+<text top="621" left="414" width="7" height="11" font="1">+</text>
+<text top="640" left="65" width="13" height="11" font="1">56</text>
+<text top="640" left="97" width="123" height="11" font="1">Menos: Saldo puesto a</text>
+<text top="655" left="97" width="59" height="11" font="1">disposición</text>
+<text top="669" left="97" width="111" height="11" font="1">de los socios (Según</text>
+<text top="683" left="97" width="86" height="11" font="1">Recuadro N° 6).</text>
+<text top="640" left="269" width="13" height="11" font="0"><b>86</b></text>
+<text top="640" left="414" width="7" height="11" font="1">−</text>
+<text top="703" left="65" width="13" height="11" font="1">57</text>
+<text top="703" left="97" width="157" height="11" font="0"><b>DEVOLUCIÓN SOLICITADA</b></text>
+<text top="703" left="282" width="65" height="11" font="0"><b>87 </b>1294649</text>
+<text top="703" left="414" width="7" height="11" font="1">=</text>
+<text top="601" left="454" width="121" height="11" font="0"><b>IMPUESTO A PAGAR</b></text>
+<text top="621" left="454" width="131" height="11" font="1">58 Impuesto Adeudado</text>
+<text top="621" left="674" width="13" height="11" font="0"><b>90</b></text>
+<text top="621" left="808" width="7" height="11" font="1">+</text>
+<text top="640" left="454" width="189" height="11" font="1">59 Reajuste Art. 72 línea 60: 0.6%</text>
+<text top="640" left="674" width="13" height="11" font="0"><b>39</b></text>
+<text top="640" left="808" width="7" height="11" font="1">+</text>
+<text top="660" left="454" width="234" height="11" font="1">60 <b>TOTAL A PAGAR (Líneas 60 + 61) 91</b></text>
+<text top="660" left="808" width="7" height="11" font="1">=</text>
+<text top="679" left="454" width="191" height="11" font="0"><b>RECARGOS POR DECLARACIÓN</b></text>
+<text top="694" left="454" width="105" height="11" font="0"><b>FUERA DE PLAZO</b></text>
+<text top="708" left="454" width="221" height="11" font="1">(RECARGOS POR MORA EN EL PAGO)</text>
+<text top="728" left="454" width="205" height="11" font="1">61 MAS: Reajustes declaración fuera</text>
+<text top="742" left="477" width="45" height="11" font="1">de plazo</text>
+<text top="728" left="674" width="13" height="11" font="0"><b>92</b></text>
+<text top="728" left="808" width="7" height="11" font="1">+</text>
+<text top="762" left="454" width="153" height="11" font="1">62 MAS: Intereses y Multas</text>
+<text top="776" left="477" width="141" height="11" font="1">declaración fuera de plazo</text>
+<text top="762" left="674" width="13" height="11" font="0"><b>93</b></text>
+<text top="762" left="808" width="7" height="11" font="1">+</text>
+<text top="796" left="454" width="211" height="11" font="1">63 <b>TOTAL A PAGAR (Líneas 60 + 61</b></text>
+<text top="810" left="477" width="28" height="11" font="0"><b>+ 62)</b></text>
+<text top="796" left="674" width="13" height="11" font="0"><b>94</b></text>
+<text top="796" left="808" width="7" height="11" font="1">=</text>
+<text top="832" left="63" width="720" height="11" font="0"><b>Declaro bajo juramento que la información contenida en este documento es la expresión fiel de la verdad, por lo que asumo la</b></text>
+<text top="847" left="63" width="193" height="11" font="0"><b>responsabilidad correspondiente.</b></text>
+<text top="1165" left="21" width="13" height="8" font="2">5/7</text>
+</page>
+<page number="6" position="absolute" top="0" left="0" height="1188" width="918">
+<text top="26" left="271" width="105" height="11" font="1">Año Tributario 2009</text>
+<text top="26" left="724" width="23" height="11" font="1">3 / 4</text>
+<text top="65" left="63" width="129" height="11" font="0"><b>REPUBLICA DE CHILE</b></text>
+<text top="79" left="63" width="217" height="11" font="0"><b>SERVICIO DE IMPUESTOS INTERNOS</b></text>
+<text top="94" left="63" width="55" height="11" font="1">FORM. 22</text>
+<text top="65" left="291" width="131" height="11" font="0"><b>AÑO TRIBUTARIO2009</b></text>
+<text top="79" left="291" width="208" height="11" font="0"><b>IMPUESTOS ANUALES A LA RENTA</b></text>
+<text top="65" left="648" width="104" height="11" font="0"><b>  07   Nº</b> 80563299</text>
+<text top="133" left="63" width="67" height="11" font="0"><b>ROL UNICO</b></text>
+<text top="147" left="63" width="74" height="11" font="0"><b>TRIBUTARIO</b></text>
+<text top="133" left="251" width="13" height="11" font="0"><b>01</b></text>
+<text top="133" left="281" width="95" height="11" font="0"><b>Apellido Paterno</b></text>
+<text top="147" left="281" width="80" height="11" font="0"><b>o razón social</b></text>
+<text top="133" left="450" width="13" height="11" font="0"><b>02</b></text>
+<text top="133" left="481" width="97" height="11" font="0"><b>Apellido Materno</b></text>
+<text top="133" left="650" width="13" height="11" font="0"><b>05</b></text>
+<text top="133" left="680" width="52" height="11" font="0"><b>Nombres</b></text>
+<text top="167" left="63" width="13" height="11" font="0"><b>03</b></text>
+<text top="167" left="93" width="60" height="11" font="1">8537521−0</text>
+<text top="167" left="251" width="43" height="11" font="1">ARCOS</text>
+<text top="167" left="450" width="29" height="11" font="1">PINO</text>
+<text top="167" left="650" width="126" height="11" font="1">MASSIEL ALEJANDRA</text>
+<text top="186" left="63" width="13" height="11" font="0"><b>06</b></text>
+<text top="186" left="92" width="145" height="11" font="1">Calle    Nº         Of.Depto.   </text>
+<text top="186" left="434" width="13" height="11" font="0"><b>09</b></text>
+<text top="186" left="464" width="47" height="11" font="1">Teléfono</text>
+<text top="186" left="670" width="13" height="11" font="0"><b>08</b></text>
+<text top="186" left="701" width="45" height="11" font="1">Comuna</text>
+<text top="206" left="63" width="140" height="11" font="1"> TOMAS MORO 1075 405</text>
+<text top="206" left="434" width="50" height="11" font="1"> 7272521</text>
+<text top="206" left="670" width="81" height="11" font="1"> LAS CONDES</text>
+<text top="225" left="63" width="13" height="11" font="0"><b>13</b></text>
+<text top="225" left="92" width="203" height="11" font="1">Actividad, profesión o giro del negocio</text>
+<text top="225" left="434" width="13" height="11" font="0"><b>14</b></text>
+<text top="225" left="464" width="150" height="11" font="1">Código actividad económica</text>
+<text top="225" left="670" width="160" height="11" font="0"><b>903 </b>RUT. del Representante</text>
+<text top="245" left="63" width="344" height="11" font="1"> EMPRESAS DE SERVICIOS INTEGRALES DE INFORMATICA</text>
+<text top="245" left="434" width="43" height="11" font="1"> 726000</text>
+<text top="264" left="63" width="13" height="11" font="0"><b>55</b></text>
+<text top="264" left="92" width="99" height="11" font="1">Correo Electrónico</text>
+<text top="284" left="63" width="182" height="11" font="1"> MASSIEL.ARCOS@GMAIL.COM</text>
+<text top="305" left="61" width="13" height="11" font="0"><b>15</b></text>
+<text top="304" left="105" width="121" height="8" font="3">Fecha Vencimiento Declaración </text>
+<text top="305" left="431" width="56" height="11" font="1">042009 <b>53</b></text>
+<text top="304" left="510" width="29" height="8" font="3">Región </text>
+<text top="305" left="843" width="13" height="11" font="1">13</text>
+<text top="322" left="61" width="13" height="11" font="0"><b>55</b></text>
+<text top="321" left="105" width="72" height="8" font="3">Correo Electrónico </text>
+<text top="322" left="292" width="201" height="11" font="1">MASSIEL.ARCOS@GMAIL.COM <b>119</b></text>
+<text top="321" left="510" width="203" height="8" font="3">Remanente Impto.Invers./Art. 55 bis. líneas 29 y/o 30. </text>
+<text top="322" left="817" width="40" height="11" font="1">440666</text>
+<text top="339" left="61" width="20" height="11" font="0"><b>157</b></text>
+<text top="338" left="105" width="65" height="8" font="3">Impto. Gl Compl. </text>
+<text top="339" left="424" width="69" height="11" font="1">1347939 <b>158</b></text>
+<text top="338" left="510" width="38" height="8" font="3">Sub Total </text>
+<text top="339" left="803" width="53" height="11" font="1">25883645</text>
+<text top="356" left="61" width="20" height="11" font="0"><b>161</b></text>
+<text top="355" left="105" width="63" height="8" font="3">Rta Art 42 Nro 1 </text>
+<text top="356" left="418" width="76" height="11" font="1">25883645 <b>162</b></text>
+<text top="355" left="510" width="85" height="8" font="3">Cred. Impto 2a Categ. </text>
+<text top="356" left="810" width="47" height="11" font="1">1788605</text>
+<text top="373" left="61" width="20" height="11" font="0"><b>170</b></text>
+<text top="372" left="105" width="151" height="8" font="3">Base Imponible Global Complementario </text>
+<text top="373" left="418" width="76" height="11" font="1">23068108 <b>301</b></text>
+<text top="372" left="510" width="108" height="8" font="3">Nombre Institución Bancaria </text>
+<text top="373" left="753" width="104" height="11" font="1">CHILE−EDWARDS</text>
+<text top="390" left="61" width="20" height="11" font="0"><b>304</b></text>
+<text top="389" left="105" width="103" height="8" font="3">Impto. Gl. Complementario </text>
+<text top="390" left="424" width="70" height="11" font="1">−440666 <b>305</b></text>
+<text top="389" left="510" width="124" height="8" font="3">Resultado Liquidación Impto Rta </text>
+<text top="390" left="810" width="47" height="11" font="1">−440666</text>
+<text top="407" left="61" width="20" height="11" font="0"><b>306</b></text>
+<text top="406" left="105" width="73" height="8" font="3">Numero de Cuenta </text>
+<text top="407" left="411" width="83" height="11" font="1">630133309 <b>315</b></text>
+<text top="406" left="510" width="77" height="8" font="3">Fecha Presentación </text>
+<text top="407" left="797" width="60" height="11" font="1">15/04/2009</text>
+<text top="424" left="61" width="20" height="11" font="0"><b>750</b></text>
+<text top="423" left="105" width="152" height="8" font="3">Intereses Pagados Por Cred.C Garantía </text>
+<text top="424" left="424" width="69" height="11" font="1">2815537 <b>751</b></text>
+<text top="423" left="510" width="159" height="8" font="3">Rebaja Por Pago Dividendo Vivienda 2/59 </text>
+<text top="424" left="810" width="47" height="11" font="1">2815537</text>
+<text top="441" left="61" width="20" height="11" font="0"><b>757</b></text>
+<text top="440" left="105" width="46" height="8" font="3">Remanente </text>
+<text top="441" left="431" width="63" height="11" font="1">440666 <b>780</b></text>
+<text top="440" left="510" width="60" height="8" font="3">Tipo de Cuenta </text>
+<text top="441" left="848" width="9" height="11" font="1">C</text>
+<text top="458" left="61" width="27" height="11" font="0"><b>8811</b></text>
+<text top="457" left="105" width="100" height="8" font="3">Moneda de la Declaración </text>
+<text top="458" left="448" width="23" height="11" font="1">CLP</text>
+<text top="476" left="63" width="98" height="11" font="0"><b>Folio Nº</b>80563299</text>
+<text top="499" left="65" width="153" height="11" font="0"><b>REMANENTE DE CREDITO</b></text>
+<text top="519" left="65" width="13" height="11" font="1">55</text>
+<text top="519" left="97" width="99" height="11" font="0"><b>SALDO A FAVOR</b></text>
+<text top="519" left="269" width="13" height="11" font="0"><b>85</b></text>
+<text top="519" left="301" width="40" height="11" font="1">440666</text>
+<text top="519" left="414" width="7" height="11" font="1">+</text>
+<text top="538" left="65" width="13" height="11" font="1">56</text>
+<text top="538" left="97" width="123" height="11" font="1">Menos: Saldo puesto a</text>
+<text top="553" left="97" width="59" height="11" font="1">disposición</text>
+<text top="567" left="97" width="111" height="11" font="1">de los socios (Según</text>
+<text top="582" left="97" width="86" height="11" font="1">Recuadro N° 6).</text>
+<text top="538" left="269" width="13" height="11" font="0"><b>86</b></text>
+<text top="538" left="414" width="7" height="11" font="1">−</text>
+<text top="601" left="65" width="13" height="11" font="1">57</text>
+<text top="601" left="97" width="157" height="11" font="0"><b>DEVOLUCIÓN SOLICITADA</b></text>
+<text top="601" left="282" width="59" height="11" font="0"><b>87 </b>440666</text>
+<text top="601" left="414" width="7" height="11" font="1">=</text>
+<text top="499" left="454" width="121" height="11" font="0"><b>IMPUESTO A PAGAR</b></text>
+<text top="519" left="454" width="131" height="11" font="1">58 Impuesto Adeudado</text>
+<text top="519" left="674" width="13" height="11" font="0"><b>90</b></text>
+<text top="519" left="808" width="7" height="11" font="1">+</text>
+<text top="538" left="454" width="189" height="11" font="1">59 Reajuste Art. 72 línea 58: 0.0%</text>
+<text top="538" left="674" width="13" height="11" font="0"><b>39</b></text>
+<text top="538" left="808" width="7" height="11" font="1">+</text>
+<text top="558" left="454" width="234" height="11" font="1">60 <b>TOTAL A PAGAR (Líneas 58 + 59) 91</b></text>
+<text top="558" left="808" width="7" height="11" font="1">=</text>
+<text top="577" left="454" width="191" height="11" font="0"><b>RECARGOS POR DECLARACIÓN</b></text>
+<text top="592" left="454" width="105" height="11" font="0"><b>FUERA DE PLAZO</b></text>
+<text top="606" left="454" width="221" height="11" font="1">(RECARGOS POR MORA EN EL PAGO)</text>
+<text top="626" left="454" width="205" height="11" font="1">61 MAS: Reajustes declaración fuera</text>
+<text top="640" left="477" width="45" height="11" font="1">de plazo</text>
+<text top="626" left="674" width="13" height="11" font="0"><b>92</b></text>
+<text top="626" left="808" width="7" height="11" font="1">+</text>
+<text top="660" left="454" width="153" height="11" font="1">62 MAS: Intereses y Multas</text>
+<text top="674" left="477" width="141" height="11" font="1">declaración fuera de plazo</text>
+<text top="660" left="674" width="13" height="11" font="0"><b>93</b></text>
+<text top="660" left="808" width="7" height="11" font="1">+</text>
+<text top="694" left="454" width="211" height="11" font="1">63 <b>TOTAL A PAGAR (Líneas 60 + 61</b></text>
+<text top="708" left="477" width="28" height="11" font="0"><b>+ 62)</b></text>
+<text top="694" left="674" width="13" height="11" font="0"><b>94</b></text>
+<text top="694" left="808" width="7" height="11" font="1">=</text>
+<text top="730" left="63" width="720" height="11" font="0"><b>Declaro bajo juramento que la información contenida en este documento es la expresión fiel de la verdad, por lo que asumo la</b></text>
+<text top="745" left="63" width="193" height="11" font="0"><b>responsabilidad correspondiente.</b></text>
+<text top="1165" left="21" width="13" height="8" font="2">6/7</text>
+</page>
+<page number="7" position="absolute" top="0" left="0" height="1188" width="918">
+<text top="26" left="271" width="105" height="11" font="1">Año Tributario 2008</text>
+<text top="26" left="724" width="23" height="11" font="1">4 / 4</text>
+<text top="65" left="63" width="129" height="11" font="0"><b>REPUBLICA DE CHILE</b></text>
+<text top="79" left="63" width="217" height="11" font="0"><b>SERVICIO DE IMPUESTOS INTERNOS</b></text>
+<text top="94" left="63" width="55" height="11" font="1">FORM. 22</text>
+<text top="65" left="289" width="131" height="11" font="0"><b>AÑO TRIBUTARIO2008</b></text>
+<text top="79" left="289" width="208" height="11" font="0"><b>IMPUESTOS ANUALES A LA RENTA</b></text>
+<text top="65" left="643" width="111" height="11" font="0"><b>  07   Nº</b> 100286448</text>
+<text top="133" left="63" width="67" height="11" font="0"><b>ROL UNICO</b></text>
+<text top="147" left="63" width="74" height="11" font="0"><b>TRIBUTARIO</b></text>
+<text top="133" left="251" width="13" height="11" font="0"><b>01</b></text>
+<text top="133" left="281" width="95" height="11" font="0"><b>Apellido Paterno</b></text>
+<text top="147" left="281" width="80" height="11" font="0"><b>o razón social</b></text>
+<text top="133" left="450" width="13" height="11" font="0"><b>02</b></text>
+<text top="133" left="481" width="97" height="11" font="0"><b>Apellido Materno</b></text>
+<text top="133" left="650" width="13" height="11" font="0"><b>05</b></text>
+<text top="133" left="680" width="52" height="11" font="0"><b>Nombres</b></text>
+<text top="167" left="63" width="13" height="11" font="0"><b>03</b></text>
+<text top="167" left="93" width="60" height="11" font="1">8537521−0</text>
+<text top="167" left="251" width="43" height="11" font="1">ARCOS</text>
+<text top="167" left="450" width="29" height="11" font="1">PINO</text>
+<text top="167" left="650" width="126" height="11" font="1">MASSIEL ALEJANDRA</text>
+<text top="186" left="63" width="13" height="11" font="0"><b>06</b></text>
+<text top="186" left="92" width="145" height="11" font="1">Calle    Nº         Of.Depto.   </text>
+<text top="186" left="434" width="13" height="11" font="0"><b>09</b></text>
+<text top="186" left="464" width="47" height="11" font="1">Teléfono</text>
+<text top="186" left="670" width="13" height="11" font="0"><b>08</b></text>
+<text top="186" left="701" width="45" height="11" font="1">Comuna</text>
+<text top="206" left="63" width="149" height="11" font="1"> TOMAS MOROO 1075 405</text>
+<text top="206" left="434" width="50" height="11" font="1"> 6941088</text>
+<text top="206" left="670" width="81" height="11" font="1"> LAS CONDES</text>
+<text top="225" left="63" width="13" height="11" font="0"><b>13</b></text>
+<text top="225" left="92" width="203" height="11" font="1">Actividad, profesión o giro del negocio</text>
+<text top="225" left="434" width="13" height="11" font="0"><b>14</b></text>
+<text top="225" left="464" width="150" height="11" font="1">Código actividad económica</text>
+<text top="225" left="670" width="160" height="11" font="0"><b>903 </b>RUT. del Representante</text>
+<text top="245" left="63" width="344" height="11" font="1"> EMPRESAS DE SERVICIOS INTEGRALES DE INFORMATICA</text>
+<text top="245" left="434" width="43" height="11" font="1"> 726000</text>
+<text top="264" left="63" width="13" height="11" font="0"><b>55</b></text>
+<text top="264" left="92" width="99" height="11" font="1">Correo Electrónico</text>
+<text top="284" left="63" width="182" height="11" font="1"> MASSIEL.ARCOS@GMAIL.COM</text>
+<text top="305" left="61" width="13" height="11" font="0"><b>15</b></text>
+<text top="304" left="113" width="121" height="8" font="3">Fecha Vencimiento Declaracion </text>
+<text top="305" left="331" width="56" height="11" font="1">042008 <b>48</b></text>
+<text top="304" left="418" width="49" height="8" font="3">Numero Fax </text>
+<text top="305" left="810" width="47" height="11" font="1">6941414</text>
+<text top="322" left="61" width="13" height="11" font="0"><b>53</b></text>
+<text top="321" left="113" width="29" height="8" font="3">Region </text>
+<text top="322" left="357" width="29" height="11" font="1">13 <b>55</b></text>
+<text top="321" left="418" width="72" height="8" font="3">Correo Electronico </text>
+<text top="322" left="678" width="179" height="11" font="1">MASSIEL.ARCOS@GMAIL.COM</text>
+<text top="339" left="61" width="20" height="11" font="0"><b>110</b></text>
+<text top="338" left="113" width="63" height="8" font="3">Rtas Perc. Rec2 </text>
+<text top="339" left="331" width="63" height="11" font="1">751100 <b>119</b></text>
+<text top="338" left="418" width="203" height="8" font="3">Remanente Impto.Invers./Art. 55 bis. lineas 29 y/o 30. </text>
+<text top="339" left="817" width="40" height="11" font="1">290318</text>
+<text top="356" left="61" width="20" height="11" font="0"><b>155</b></text>
+<text top="355" left="113" width="61" height="8" font="3">Renta Cap Mob </text>
+<text top="356" left="331" width="63" height="11" font="1">182392 <b>157</b></text>
+<text top="355" left="418" width="65" height="8" font="3">Impto. Gl Compl. </text>
+<text top="356" left="810" width="47" height="11" font="1">1488335</text>
+<text top="373" left="61" width="20" height="11" font="0"><b>158</b></text>
+<text top="372" left="113" width="38" height="8" font="3">Sub Total </text>
+<text top="373" left="317" width="76" height="11" font="1">24939512 <b>161</b></text>
+<text top="372" left="418" width="63" height="8" font="3">Rta Art 42 Nro 1 </text>
+<text top="373" left="803" width="53" height="11" font="1">24006123</text>
+<text top="390" left="61" width="20" height="11" font="0"><b>162</b></text>
+<text top="389" left="113" width="85" height="8" font="3">Cred. Impto 2a Categ. </text>
+<text top="390" left="324" width="69" height="11" font="1">1676430 <b>169</b></text>
+<text top="389" left="418" width="65" height="8" font="3">Perd. Cap. Mobil </text>
+<text top="390" left="837" width="20" height="11" font="1">103</text>
+<text top="407" left="61" width="20" height="11" font="0"><b>170</b></text>
+<text top="406" left="113" width="151" height="8" font="3">Base Imponible Global Complementario </text>
+<text top="407" left="317" width="76" height="11" font="1">22721263 <b>174</b></text>
+<text top="406" left="418" width="65" height="8" font="3">campo 174 renta </text>
+<text top="407" left="817" width="40" height="11" font="1">102223</text>
+<text top="424" left="61" width="20" height="11" font="0"><b>198</b></text>
+<text top="423" left="113" width="141" height="8" font="3">Retenc. Por Rtas Declaradas Linea 6 </text>
+<text top="424" left="331" width="63" height="11" font="1">107300 <b>301</b></text>
+<text top="423" left="418" width="108" height="8" font="3">Nombre Institucion Bancaria </text>
+<text top="424" left="796" width="61" height="11" font="1">SECURITY</text>
+<text top="441" left="61" width="20" height="11" font="0"><b>304</b></text>
+<text top="440" left="113" width="103" height="8" font="3">Impto. Gl. Complementario </text>
+<text top="441" left="324" width="70" height="11" font="1">−290318 <b>305</b></text>
+<text top="440" left="418" width="124" height="8" font="3">Resultado Liquidacion Impto Rta </text>
+<text top="441" left="810" width="47" height="11" font="1">−397618</text>
+<text top="458" left="61" width="20" height="11" font="0"><b>306</b></text>
+<text top="457" left="113" width="73" height="8" font="3">Numero de Cuenta </text>
+<text top="458" left="317" width="76" height="11" font="1">80206901 <b>315</b></text>
+<text top="457" left="418" width="77" height="8" font="3">Fecha Presentacion </text>
+<text top="458" left="797" width="60" height="11" font="1">02/06/2008</text>
+<text top="475" left="61" width="20" height="11" font="0"><b>461</b></text>
+<text top="473" left="113" width="93" height="8" font="3">Honorarios Actualizados </text>
+<text top="475" left="324" width="69" height="11" font="1">1073000 <b>467</b></text>
+<text top="473" left="418" width="92" height="8" font="3">Total Renta Actualizada </text>
+<text top="475" left="817" width="40" height="11" font="1">751100</text>
+<text top="492" left="61" width="20" height="11" font="0"><b>492</b></text>
+<text top="490" left="113" width="151" height="8" font="3">Impto. Retenido Actualizado Honorarios </text>
+<text top="492" left="331" width="63" height="11" font="1">107300 <b>494</b></text>
+<text top="490" left="418" width="135" height="8" font="3">Gastos Presuntos Con Tope 15 Uta </text>
+<text top="492" left="817" width="40" height="11" font="1">321900</text>
+<text top="509" left="61" width="20" height="11" font="0"><b>547</b></text>
+<text top="507" left="113" width="134" height="8" font="3">Total Ingresos Brutos, Actualizados </text>
+<text top="509" left="324" width="69" height="11" font="1">1073000 <b>611</b></text>
+<text top="507" left="418" width="99" height="8" font="3">Retenciones Actualizadas </text>
+<text top="509" left="817" width="40" height="11" font="1">107300</text>
+<text top="525" left="61" width="20" height="11" font="0"><b>618</b></text>
+<text top="524" left="113" width="100" height="8" font="3">Total Rentas Actualizadas </text>
+<text top="525" left="331" width="63" height="11" font="1">751100 <b>619</b></text>
+<text top="524" left="418" width="120" height="8" font="3">Total Retenciones Actualizadas </text>
+<text top="525" left="817" width="40" height="11" font="1">107300</text>
+<text top="542" left="61" width="20" height="11" font="0"><b>701</b></text>
+<text top="541" left="113" width="97" height="8" font="3">Total A.N.P. Del Ejercicio </text>
+<text top="542" left="331" width="63" height="11" font="1">681489 <b>702</b></text>
+<text top="541" left="418" width="118" height="8" font="3">A.N.P. Utilizado En El Ejercicio </text>
+<text top="542" left="817" width="40" height="11" font="1">681489</text>
+<text top="559" left="61" width="20" height="11" font="0"><b>750</b></text>
+<text top="558" left="113" width="151" height="8" font="3">Intereses Pagados Por Cred.C Garantia </text>
+<text top="559" left="324" width="69" height="11" font="1">2082656 <b>751</b></text>
+<text top="558" left="418" width="159" height="8" font="3">Rebaja Por Pago Dividendo Vivienda 2/59 </text>
+<text top="559" left="810" width="47" height="11" font="1">2082656</text>
+<text top="576" left="61" width="20" height="11" font="0"><b>757</b></text>
+<text top="575" left="113" width="46" height="8" font="3">Remanente </text>
+<text top="576" left="331" width="63" height="11" font="1">290318 <b>765</b></text>
+<text top="575" left="418" width="153" height="8" font="3">Ahorro previsional Voluntario Art. 42 bis. </text>
+<text top="576" left="817" width="40" height="11" font="1">135593</text>
+<text top="593" left="61" width="20" height="11" font="0"><b>766</b></text>
+<text top="592" left="113" width="128" height="8" font="3">Acc. de pago y Ahorro previsional </text>
+<text top="593" left="331" width="63" height="11" font="1">135593 <b>780</b></text>
+<text top="592" left="418" width="60" height="8" font="3">Tipo de Cuenta </text>
+<text top="593" left="848" width="9" height="11" font="1">C</text>
+<text top="610" left="61" width="27" height="11" font="0"><b>8811</b></text>
+<text top="609" left="113" width="100" height="8" font="3">Moneda de la Declaración </text>
+<text top="610" left="347" width="23" height="11" font="1">CLP</text>
+<text top="629" left="63" width="105" height="11" font="0"><b>Folio Nº</b>100286448</text>
+<text top="652" left="65" width="153" height="11" font="0"><b>REMANENTE DE CREDITO</b></text>
+<text top="672" left="65" width="13" height="11" font="1">55</text>
+<text top="672" left="97" width="99" height="11" font="0"><b>SALDO A FAVOR</b></text>
+<text top="672" left="269" width="13" height="11" font="0"><b>85</b></text>
+<text top="672" left="301" width="40" height="11" font="1">397618</text>
+<text top="672" left="414" width="7" height="11" font="1">+</text>
+<text top="691" left="65" width="13" height="11" font="1">56</text>
+<text top="691" left="97" width="123" height="11" font="1">Menos: Saldo puesto a</text>
+<text top="706" left="97" width="59" height="11" font="1">disposición</text>
+<text top="720" left="97" width="111" height="11" font="1">de los socios (Según</text>
+<text top="734" left="97" width="86" height="11" font="1">Recuadro N° 6).</text>
+<text top="691" left="269" width="13" height="11" font="0"><b>86</b></text>
+<text top="691" left="414" width="7" height="11" font="1">−</text>
+<text top="754" left="65" width="13" height="11" font="1">57</text>
+<text top="754" left="97" width="157" height="11" font="0"><b>DEVOLUCION SOLICITADA</b></text>
+<text top="754" left="282" width="59" height="11" font="0"><b>87 </b>397618</text>
+<text top="754" left="414" width="7" height="11" font="1">=</text>
+<text top="652" left="454" width="121" height="11" font="0"><b>IMPUESTO A PAGAR</b></text>
+<text top="672" left="454" width="131" height="11" font="1">58 Impuesto Adeudado</text>
+<text top="672" left="674" width="13" height="11" font="0"><b>90</b></text>
+<text top="672" left="808" width="7" height="11" font="1">+</text>
+<text top="691" left="454" width="189" height="11" font="1">59 Reajuste Art. 72 línea 58: 1.7%</text>
+<text top="691" left="674" width="13" height="11" font="0"><b>39</b></text>
+<text top="691" left="808" width="7" height="11" font="1">+</text>
+<text top="711" left="454" width="234" height="11" font="1">60 <b>TOTAL A PAGAR (Líneas 58 + 59) 91</b></text>
+<text top="711" left="808" width="7" height="11" font="1">=</text>
+<text top="730" left="454" width="191" height="11" font="0"><b>RECARGOS POR DECLARACION</b></text>
+<text top="745" left="454" width="105" height="11" font="0"><b>FUERA DE PLAZO</b></text>
+<text top="759" left="454" width="221" height="11" font="1">(RECARGOS POR MORA EN EL PAGO)</text>
+<text top="779" left="454" width="205" height="11" font="1">61 MAS: Reajustes declaración fuera</text>
+<text top="793" left="477" width="45" height="11" font="1">de plazo</text>
+<text top="779" left="674" width="13" height="11" font="0"><b>92</b></text>
+<text top="779" left="808" width="7" height="11" font="1">+</text>
+<text top="813" left="454" width="153" height="11" font="1">62 MAS: Intereses y Multas</text>
+<text top="827" left="477" width="141" height="11" font="1">declaración fuera de plazo</text>
+<text top="813" left="674" width="13" height="11" font="0"><b>93</b></text>
+<text top="813" left="808" width="7" height="11" font="1">+</text>
+<text top="847" left="454" width="211" height="11" font="1">63 <b>TOTAL A PAGAR (Líneas 60 + 61</b></text>
+<text top="861" left="477" width="28" height="11" font="0"><b>+ 62)</b></text>
+<text top="847" left="674" width="13" height="11" font="0"><b>94</b></text>
+<text top="847" left="703" width="37" height="11" font="1"> 14090</text>
+<text top="847" left="808" width="7" height="11" font="1">=</text>
+<text top="883" left="63" width="720" height="11" font="0"><b>Declaro bajo juramento que la información contenida en este documento es la expresión fiel de la verdad, por lo que asumo la</b></text>
+<text top="897" left="63" width="193" height="11" font="0"><b>responsabilidad correspondiente.</b></text>
+<text top="1165" left="21" width="13" height="8" font="2">7/7</text>
+</page>
+</pdf2xml>

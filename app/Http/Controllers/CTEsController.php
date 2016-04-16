@@ -6,10 +6,10 @@ use Illuminate\Http\Request;
 use acempresarial\Http\Requests;
 use acempresarial\Repositories\CTE\CteUploaderRepository;
 use acempresarial\Repositories\CTE\CteSaverRepository;
-
-
-
-//use Htmldom;
+use acempresarial\Models\Cte;
+use Auth;
+use acempresarial\Repositories\CTE\CteEvaluationRepository;
+use acempresarial\Repositories\CTE\CteValidators\CteArrayValidator;
 
 class CTEsController extends Controller
 {
@@ -21,7 +21,18 @@ class CTEsController extends Controller
      */
     public function index()
     {    	
-        return view('cte.index');
+        $ctes = Cte::where('user_id','=',Auth::user()->id)
+                ->orderBy('created_at','DESC')->get();
+
+        $f29_count = 0;
+        $f22_count = 0;
+        foreach ($ctes as $cte) {
+           
+           $f29_count = $f29_count + $cte->f29s->count();
+           $f22_count = $f22_count + $cte->f22s->count();
+        }    
+
+        return view('cte.index', compact('ctes','f29_count','f22_count'));
     }
 
     /**
@@ -53,7 +64,11 @@ class CTEsController extends Controller
      */
     public function show($id)
     {
-        
+        setlocale(LC_TIME, 'es_CL.utf8');
+        $cte = Cte::findOrFail($id);
+        $cte->load('f29s','f22s','company');
+
+        return view('cte.show',compact('cte'));
     }
 
     /**
@@ -97,13 +112,18 @@ class CTEsController extends Controller
      * @return json           success/fail
      */
     public function upload(Request $request, $user_id,
-    	CteUploaderRepository $uploadManager, CteSaverRepository $cte)
+    	CteUploaderRepository $uploadManager, CteSaverRepository $cte, CteArrayValidator $validator)
     {     
         $file = $request->file('file'); 
             
-        $CTE = $uploadManager->upload($file,"uploads/ctes/$user_id/"); 
+        $CTE = $uploadManager->upload($file,"uploads/ctes/$user_id/");
+
+        $validator->validate($CTE);
+
+        dd($CTE["Forms"]['F22']);
+
         
-        $CTE = $cte->store($CTE);
+        //$CTE = $cte->store($CTE);
      
         return 'Done';
     }

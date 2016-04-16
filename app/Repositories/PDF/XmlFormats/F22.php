@@ -127,6 +127,7 @@ class F22
                         'type'=>'single',
                         'name'=>'C366_credit_assets_of_physical_property_exercise',
                         'offset'=>1
+                        'other_labels'=>['Crédito por bienes físicos del activo']
                     ],
                      'interest_received_or_accrued' => [
                         'label'=>'Intereses Percibidos O Devengados',

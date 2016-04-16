@@ -1,1 +1,1 @@
-{"version":3,"sources":["app.css"],"names":[],"mappings":"AAAA","file":"app.css","sourceRoot":"/source/","sourcesContent":[]}
+{"version":3,"sources":["app.scss"],"names":[],"mappings":"AAEA;EACC,kCAAkC,EAClC","file":"app.css","sourcesContent":["// @import \"node_modules/bootstrap-sass/assets/stylesheets/bootstrap\";\n\n.vertical{\n\tvertical-align: middle !important;\n}\n\n\n"],"sourceRoot":"/source/"}
