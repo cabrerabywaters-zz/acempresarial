@@ -21,11 +21,9 @@ class F29Validator
 	 */
 	public function validate($F29s)
 	{
-
+		dd($F29s);
 		foreach ($F29s as $key => $F29) {
 			$this->validator[$key] = Validator::make($F29,$this->rules);
-
-			
 		}
 		
 	}

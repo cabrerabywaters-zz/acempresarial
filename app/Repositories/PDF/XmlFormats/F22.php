@@ -13,166 +13,279 @@ class F22
     }
 
     private $fields =
-                [
-                    'email' => [
-                                    'label'=>'Correo Electrónico',
-                                    'type'=>'single',
-                                    'name'=>'email',
-                                    'offset'=>1
-                                ],
-                    'folio' => [
-                                    'label'=>'Folio Nº',
-                                    'type'=>'single',
-                                    'name'=>'folio',
-                                    'offset'=>0
-                                ],
-                    'tax_year' => [
-                                    'label'=>'Año Tributario',
-                                    'type'=>'single',
-                                    'name'=>'tax_year',
-                                    'offset'=>0
-                                ],
-                    'rut' => [
-                                    'label'=>'03',
-                                    'type'=>'single',
-                                    'name'=>'rut',
-                                    'offset'=>1
-                                ],
-                    'first_category_tax_rent_determ' => [
-                                    'label'=>'Impuesto de Primera Categoría sobre rentas efectivas. (Determinado)',
-                                    'type'=>'single',
-                                    'name'=>'first_category_tax_rent_determ',
-                                    'offset'=>1
-                                ],
-                    'first_category_tax_rent_taxable_base' => [
-                                    'label'=>'Impuesto Primera Categoría sobre rentas efectivas. (Base',
-                                    'type'=>'single',
-                                    'name'=>'C18_first_category_tax_rent_taxable_base',
-                                    'offset'=>2
-                                ],
-                    'total_assets' => [
-                        'label'=>'Total Activo',
+    [
+        'email' => [
                         'type'=>'single',
-                        'name'=>'C122_total_assets',
-                        'offset'=>1
+                        'name'=>'email',
+                        'labels'=>[
+                            [
+                                'label'=>'Correo Electrónico',
+                                'offset'=>1
+                            ]
+                        ]
                     ],
-                    'total_liabilities' => [
-                        'label'=>'Total Pasivo',
+        'folio' => [
+                        'name'=>'folio',
                         'type'=>'single',
-                        'name'=>'C123_total_liabilities',
-                        'offset'=>1
+                        'labels'=>[
+                            [
+                                'label'=>'Folio Nº',
+                                'offset'=>0
+                            ]
+                            
+                        ]
                     ],
-                    'perceived_or_accrued_income' => [
-                        'label'=>'Ingresos Percibidos O Devengados',
+        'tax_year' => [
+                        'name'=>'tax_year',
                         'type'=>'single',
-                        'name'=>'C628_perceived_or_accrued_income',
-                        'offset'=>1
+                        'labels'=>[
+                            [
+                                'label'=>'Año Tributario',
+                                'offset'=>0
+                            ]
+                        ]
                     ],
-                    'direct_cost_of_goods_and_services' => [
-                        'label'=>'Costo Directo de Bienes Y Servicios',
+        'rut' => [
+                        'name'=>'rut',
                         'type'=>'single',
-                        'name'=>'C630_direct_cost_of_goods_and_services',
-                        'offset'=>1
-                    ],
-                    'remuneration' => [
-                        'label'=>'Remuneraciones',
+                        'labels'=>[
+                            [
+                                'label'=>'03',
+                                'offset'=>1
+                            ]
+                            
+                        ]
+                ],
+        'first_category_tax_rent_determ' => [
+                        
+                        'name'=>'first_category_tax_rent_determ',
                         'type'=>'single',
-                        'name'=>'C631_remuneration',
-                        'offset'=>1
+                        'labels'=>[
+                            [
+                                'label'=>'Impuesto de Primera Categoría sobre rentas efectivas. (Determinado)'
+                                ,'offset'=>1
+                            ]
+                            
+                        ]
                     ],
-                    'depreciation' => [
-                        'label'=>'Depreciación',
+        'first_category_tax_rent_taxable_base' => [
+                        'name'=>'C18',
                         'type'=>'single',
-                        'name'=>'C632_depreciation',
-                        'offset'=>1
-                    ],
-                    'other_deductible_expenses_gross_income' => [
-                        'label'=>'Otros Gastos Deduc. de Ingresos Brutos',
-                        'type'=>'single',
-                        'name'=>'C635_other_deductible_expenses_gross_income',
-                        'offset'=>1
-                    ],
-                    'debtor_balance_restatement' => [
+                        'labels'=>[
+                            [
+                                'label'=>'Impuesto Primera Categoría sobre rentas efectivas. (Base'
+                                ,'offset'=>2
+                            ]
+                            
+                        ]
+                   ],
+        'total_assets' => [
+            'name'=>'C122',
+            'type'=>'single',
+            'labels'=>[
+                        [
+                            'label'=>'Total Activo',
+                            'offset'=>1
+                        ]
+                    ]
+        ],
+        'total_liabilities' => [
+            'name'=>'C123',
+            'type'=>'single',
+            'labels'=>[
+                            [
+                                'label'=>'Total Pasivo',
+                                'offset'=>1
+                            ]
+                        ]
+        ],
+        'perceived_or_accrued_income' => [
+            'name'=>'C628',
+            'type'=>'single',
+            'labels'=>[
+                        [
+                            'label'=>'Ingresos Percibidos O Devengados',
+                            'offset'=>1
+                        ]
+                            
+                ]
+        ],
+        'direct_cost_of_goods_and_services' => [
+            'name'=>'C630',
+            'type'=>'single',
+            'labels'=>[
+                        [
+                            'label'=>'Costo Directo de Bienes Y Servicios',
+                            'offset'=>1
+                        ]
+                            
+                ]
+        ],
+        'remuneration' => [
+            'name'=>'C631',
+            'type'=>'single',
+            'labels'=>[
+                        [
+                            'label'=>'Remuneraciones',
+                            'offset'=>1
+                        ]
+                ]
+        ],
+        'depreciation' => [
+            'name'=>'C632',
+            'type'=>'single',
+            'labels'=>[
+                        [
+                            'label'=>'Depreciación',
+                            'offset'=>1
+                        ]
+                ]
+        ],
+        'other_deductible_expenses_gross_income' => [
+            'name'=>'C635',
+            'type'=>'single',
+            'labels'=>[
+                        [
+                            'label'=>'Otros Gastos Deduc. de Ingresos Brutos',
+                            'offset'=>1
+                        ]
+                ]
+            
+        ],
+        'debtor_balance_restatement' => [
+            'name'=>'C637',
+            'type'=>'single',
+            'labels'=>[
+                    [
                         'label'=>'Corrección Monetaria Saldo Deudor',
-                        'type'=>'single',
-                        'name'=>'C637_debtor_balance_restatement',
-                        'offset'=>1
-                    ],
-                    'credit_balance_restatement' => [
-                        'label'=>'Corrección Monetaria Saldo Acreedor',
-                        'type'=>'single',
-                        'name'=>'C638_credit_balance_restatement',
-                        'offset'=>1
-                    ],
-                    'net_taxable_income_or_tax_loss' => [
-                        'label'=>'Renta Liquida Imponible O Perdida Tribut',
-                        'type'=>'single',
-                        'name'=>'C643_net_taxable_income_or_tax_loss',
-                        'offset'=>1
-                    ],
-                    'positive_tax_equity' => [
-                        'label'=>'Capital Propio Tributario Positivo',
-                        'type'=>'single',
-                        'name'=>'C645_positive_tax_equity',
-                        'offset'=>1
-                    ],
-                     'fixed_assets' => [
-                        'label'=>'Activo Inmovilizado',
-                        'type'=>'single',
-                        'name'=>'C647_fixed_assets',
-                        'offset'=>1
-                    ],
-                     'credit_assets_of_physical_property_exercise' => [
-                        'label'=>'Crédito por bienes físicos del activo inmovilizado del ejercicio',
-                        'type'=>'single',
-                        'name'=>'C366_credit_assets_of_physical_property_exercise',
-                        'offset'=>1
-                        'other_labels'=>['Crédito por bienes físicos del activo']
-                    ],
-                     'interest_received_or_accrued' => [
-                        'label'=>'Intereses Percibidos O Devengados',
-                        'type'=>'single',
-                        'name'=>'C629_interest_received_or_accrued',
-                        'offset'=>1
-                    ],
-                     'interest_paid_or_owed' => [
-                        'label'=>'Intereses Pagados O Adeudados',
-                        'type'=>'single',
-                        'name'=>'C633_interest_paid_or_owed',
-                        'offset'=>1
-                    ],
-                     'other_interest_paid_or_owed' => [
-                        'label'=>'Otros Ingresos Percibidos O Devengados',
-                        'type'=>'single',
-                        'name'=>'C651_other_interest_paid_or_owed',
-                        'offset'=>1
-                    ],
-                     'credit_for_training_expenses' => [
-                        'label'=>'Crédito por Gastos de Capacitación',
-                        'type'=>'single',
-                        'name'=>'C82_credit_for_training_expenses',
-                        'offset'=>1
-                    ],
-                    'credit_remaining_physical_assets_of_property_from_investments' => [
-                        'label'=>'Remanente de Crédito por bienes físicos del activo inmovilizado proveniente de inversiones',
-                        'type'=>'single',
-                        'name'=>'C839_credit_remaining_physical_assets_of_property_from_investments',
-                        'offset'=>1
-                    ],
-                    'capital_increase' => [
-                        'label'=>'Aumento de Capital',
-                        'type'=>'single',
-                        'name'=>'C893_capital_increase',
-                        'offset'=>1
-                    ],
-                    'capital_decrease' => [
-                        'label'=>'Disminuciones de Capital',
-                        'type'=>'single',
-                        'name'=>'C894_capital_decrease',
                         'offset'=>1
                     ]
+            ]
+        ],
+        'credit_balance_restatement' => [
+            'name'=>'C638',
+            'type'=>'single',
+            'labels'=>[
+                        [
+                            'label'=>'Corrección Monetaria Saldo Acreedor',
+                            'offset'=>1
+                        ]
+                            
+                ]
+        ],
+        'net_taxable_income_or_tax_loss' => [
+            'name'=>'C643',
+            'type'=>'single',
+            'labels'=>[
+                        [
+                            'label'=>'Renta Liquida Imponible O Perdida Tribut',
+                            'offset'=>1
+                        ]
+                            
+                ]
+        ],
+        'positive_tax_equity' => [
+            'name'=>'C645',
+            'type'=>'single',
+            'labels'=>[
+                        [
+                            'label'=>'Capital Propio Tributario Positivo',
+                            'offset'=>1
+                        ]
+                ]
+        ],
+         'fixed_assets' => [
+            'name'=>'C647',
+            'type'=>'single',
+            'labels'=>[
+                        [
+                            'label'=>'Activo Inmovilizado',
+                            'offset'=>1
+                        ]
+                ]
+        ],
+         'credit_assets_of_physical_property_exercise' => [
+            'name'=>'C366',
+            'type'=>'single',
+            'labels'=>[
+                        [
+                            'label'=>'Crédito por bienes físicos del activo inmovilizado del ejercicio'
+                            ,'offset'=>1,
+                        ]
+                ]
+        ],
+         'interest_received_or_accrued' => [
+            'name'=>'C629',
+            'type'=>'single',
+            'labels'=>[
+                [
+                    'label'=>'Intereses Percibidos O Devengados',
+                    'offset'=>1
+                ]
+            ]
+        ],
+        'interest_paid_or_owed' => [
+            'name'=>'C633',
+            'type'=>'single',
+            'labels'=>[
+                    [
+                        'label'=>'Intereses Pagados O Adeudados',
+                        'offset'=>1
+                    ]
+                ]
+        ],
+         'other_interest_paid_or_owed' => [
+            'name'=>'C651',
+            'type'=>'single',
+            'labels'=>[
+                [
+                    'label'=>'Otros Ingresos Percibidos O Devengados',
+                    'offset'=>1
+                ]
+            ]
+        ],
+        'credit_for_training_expenses' => [
+            'name'=>'C82',
+            'type'=>'single',
+            'labels'=>[
+                [
+                    'label'=>'Crédito por Gastos de Capacitación',
+                    'offset'=>1
+                ]
+            ]
+        ],
+        'credit_remaining_physical_assets_of_property_from_investments' => [
+            'name'=>'C839',
+            'type'=>'single',
+            'labels'=>[
+                [
+                    'label'=>'Remanente de Crédito por bienes físicos del activo inmovilizado proveniente de inversiones',
+                    'offset'=>1
+                ]
+            ]
+        ],
+        'capital_increase' => [
+            'name'=>'C893',
+            'type'=>'single',
+            'labels'=>[
+                [
+                    'label'=>'Aumento de Capital',
+                    'offset'=>1
+                ]
+            ]
+        ],
+        'capital_decrease' => [
+            'name'=>'C894',
+            'type'=>'single',
+            'labels'=>[
+                [
+                    'label'=>'Disminuciones de Capital',
+                    'offset'=>1
+                ]
+            ]
+        ]
 
-                ];
+    ];
 
     /**
      * Extracts all the information contained
@@ -180,7 +293,8 @@ class F22
      * @return array Parsed F29 Forms
      */
     public function extract($xml)
-    {
+    {        
+        $this->fields = $this->helper->order_fields_labels_by_length($this->fields);       
         $result = [];
         $pages = $this->getF22Pages($xml);
 
@@ -192,20 +306,13 @@ class F22
 
                     //Single fields
                     if ($field['type']=="single") {
-                        if ($this->helper->startsWith($content, $field['label'])) {
-                            $result[$pageNumber][$field['name']] =  $this->helper->extract_value($xml['page'][$pageNumber]['text'][$position + $field['offset']]);
-                        }
-                    }
-                    //Multiple fields
-                    elseif ($field['type']=="multiple") {
-                        if ($content == $field['label']) {
-                            $next = 1;
-                            while (!$this->helper->startsWith($xml['page'][0]['text'][$position + $next], $field['next_label'])) {
-                                $result[$pageNumber][$field['name']][] = $xml['page'][0]['text'][$position + $next];
-                                $next++;
+                        foreach ($field['labels'] as $key => $option) {
+                            if ($this->helper->startsWith($content, $option['label'])) {
+                                $result[$pageNumber][$field['name']] =  $this->helper->extract_value($xml['page'][$pageNumber]['text'][$position + $option['offset']]);
                             }
                         }
                     }
+                  
                 }
             }
         }

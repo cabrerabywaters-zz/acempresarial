@@ -51,10 +51,10 @@ class F29Formatter
 	 */
 	private function F_form_period($F29)
 	{
-		$dates = explode('/',$F29['C15_period']);
+		$dates = explode('/',$F29['C15']);
 		$month = trim($dates[0]);
 		$year = trim($dates[1]);
-		$F29['C15_period'] = $this->helper->month_year_to_DB_datetime($month,$year);
+		$F29['C15'] = $this->helper->month_year_to_DB_datetime($month,$year);
 		 
 		return $F29;
 	}
