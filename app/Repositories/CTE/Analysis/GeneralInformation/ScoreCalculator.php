@@ -10,16 +10,23 @@ namespace acempresarial\Repositories\CTE\Analysis;
 */
 class ScoreCalculator 
 {
-	public function get()
+	public function get($CTE)
 	{
-		$this->recipe()
+		$this->recipe($CTE);
 	}
 	
-	private function recipe()
+	private function recipe($CTE)
 	{
+		$sum = 0;
+		$last = $CTE->f22s->last();
+
+		
+		
 		/*
 		 100*( 0.3 * ($C628/$UF) / 88078  + 0.2 * ($C122/$UF) / 117437 + 0.5 *( 0.046*( ($C628/$UF) /1000)*2 + 0.001*(($C122/$UF)/1000)*2+ 3.382  )/250)
 		*/
+	
+		return $result;
 	}
 	
 }

@@ -2,7 +2,7 @@
 
 namespace app\Repositories\CTE;
 
-use acempresarial\Repositories\CTE\Analysis\ScoreCalculator;
+use  app\Repositories\CTE\Analysis\GeneralInformation\GeneralInformationLoader;
 /**
 * Loads all different sections of the report
 * calling every individual method that
@@ -12,9 +12,16 @@ class CteEvaluationRepository
 {
 	
 	private $generalInfo;
-	function __construct(ScoreCalculator $score,)
+
+	public function __construct(GeneralInformationLoader $generalInfo)
 	{
-		# code...
+		$this->generalInfo = $generalInfo;
+	}
+	
+	public function evaluate($CTE)
+	{
+		$evaluation = array();
+		$evaluation['general_information']= $this->generalInfo->get($CTE);
 	}
 
 }
