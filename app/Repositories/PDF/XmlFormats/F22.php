@@ -20,7 +20,8 @@ class F22
                         'labels'=>[
                             [
                                 'label'=>'Correo Electrónico',
-                                'offset'=>1
+                                'offset'=>1,
+                                'next_label'=>''
                             ]
                         ]
                     ],
@@ -30,7 +31,8 @@ class F22
                         'labels'=>[
                             [
                                 'label'=>'Folio Nº',
-                                'offset'=>0
+                                'offset'=>0,
+                                'next_label'=>''
                             ]
                             
                         ]
@@ -41,7 +43,8 @@ class F22
                         'labels'=>[
                             [
                                 'label'=>'Año Tributario',
-                                'offset'=>0
+                                'offset'=>0,
+                                'next_label'=>''
                             ]
                         ]
                     ],
@@ -51,19 +54,49 @@ class F22
                         'labels'=>[
                             [
                                 'label'=>'03',
-                                'offset'=>1
+                                'offset'=>1,
+                                'next_label'=>''
                             ]
                             
                         ]
                 ],
         'first_category_tax_rent_determ' => [
                         
-                        'name'=>'first_category_tax_rent_determ',
+                        'name'=>'C20',
                         'type'=>'single',
                         'labels'=>[
                             [
-                                'label'=>'Impuesto de Primera Categoría sobre rentas efectivas. (Determinado)'
-                                ,'offset'=>1
+                                'label'=>'Impuesto de Primera Categoría sobre rentas efectivas. (Determinado)',
+                                'offset'=>1,
+                                'next_label'=>''
+                            ],
+                            [
+                                'label'=>'Impuesto de Primera Categoría sobre rentas efectivas.',
+                                'offset'=>2,
+                                'next_label'=>'(Determinado)'
+
+                            ],
+                            [
+
+                                'label'=>'Impuesto de Primera Categoría sobre rentas',
+                                'offset'=>2,
+                                'next_label'=>'efectivas. (Determinado)'
+                            ],
+                            [
+                                'label'=>'Impuesto de Primera Categoría sobre',
+                                'offset'=>2,
+                                'next_label'=>'rentas efectivas. (Determinado)'
+                            ],
+                            [
+
+                                'label'=>'1a Categ. Sobre Rentas Efectivas',
+                                'offset'=>1,
+                                'next_label'=>''
+                            ],
+                            [
+                                'label'=>'Impuesto 1a Categ. Sobre Rentas Efectivas',
+                                'offset'=>1,
+                                'next_label'=>''
                             ]
                             
                         ]
@@ -73,8 +106,19 @@ class F22
                         'type'=>'single',
                         'labels'=>[
                             [
-                                'label'=>'Impuesto Primera Categoría sobre rentas efectivas. (Base'
-                                ,'offset'=>2
+                                'label'=>'Impuesto Primera Categoría sobre rentas efectivas. (Base Imponible)',
+                                'offset'=>1,
+                                'next_label'=>''
+                            ],
+                            [
+                                'label'=>'Impuesto Primera Categoría sobre rentas efectivas. (Base',
+                                'offset'=>2,
+                                'next_label'=>'Imponible)'
+                            ],
+                            [
+                                'label'=>'Impuesto Primera Categoría sobre rentas efectivas.',
+                                'offset'=>2,
+                                'next_label'=>'(Base Imponible)'
                             ]
                             
                         ]
@@ -85,7 +129,8 @@ class F22
             'labels'=>[
                         [
                             'label'=>'Total Activo',
-                            'offset'=>1
+                            'offset'=>1,
+                            'next_label'=>''
                         ]
                     ]
         ],
@@ -95,7 +140,8 @@ class F22
             'labels'=>[
                             [
                                 'label'=>'Total Pasivo',
-                                'offset'=>1
+                                'offset'=>1,
+                                'next_label'=>''
                             ]
                         ]
         ],
@@ -105,7 +151,8 @@ class F22
             'labels'=>[
                         [
                             'label'=>'Ingresos Percibidos O Devengados',
-                            'offset'=>1
+                            'offset'=>1,
+                            'next_label'=>''
                         ]
                             
                 ]
@@ -116,7 +163,8 @@ class F22
             'labels'=>[
                         [
                             'label'=>'Costo Directo de Bienes Y Servicios',
-                            'offset'=>1
+                            'offset'=>1,
+                            'next_label'=>''
                         ]
                             
                 ]
@@ -127,7 +175,8 @@ class F22
             'labels'=>[
                         [
                             'label'=>'Remuneraciones',
-                            'offset'=>1
+                            'offset'=>1,
+                            'next_label'=>''
                         ]
                 ]
         ],
@@ -137,7 +186,8 @@ class F22
             'labels'=>[
                         [
                             'label'=>'Depreciación',
-                            'offset'=>1
+                            'offset'=>1,
+                            'next_label'=>''
                         ]
                 ]
         ],
@@ -147,7 +197,8 @@ class F22
             'labels'=>[
                         [
                             'label'=>'Otros Gastos Deduc. de Ingresos Brutos',
-                            'offset'=>1
+                            'offset'=>1,
+                            'next_label'=>''
                         ]
                 ]
             
@@ -158,7 +209,8 @@ class F22
             'labels'=>[
                     [
                         'label'=>'Corrección Monetaria Saldo Deudor',
-                        'offset'=>1
+                        'offset'=>1,
+                        'next_label'=>''
                     ]
             ]
         ],
@@ -168,7 +220,8 @@ class F22
             'labels'=>[
                         [
                             'label'=>'Corrección Monetaria Saldo Acreedor',
-                            'offset'=>1
+                            'offset'=>1,
+                            'next_label'=>''
                         ]
                             
                 ]
@@ -179,7 +232,8 @@ class F22
             'labels'=>[
                         [
                             'label'=>'Renta Liquida Imponible O Perdida Tribut',
-                            'offset'=>1
+                            'offset'=>1,
+                            'next_label'=>''
                         ]
                             
                 ]
@@ -190,7 +244,8 @@ class F22
             'labels'=>[
                         [
                             'label'=>'Capital Propio Tributario Positivo',
-                            'offset'=>1
+                            'offset'=>1,
+                            'next_label'=>''
                         ]
                 ]
         ],
@@ -200,7 +255,8 @@ class F22
             'labels'=>[
                         [
                             'label'=>'Activo Inmovilizado',
-                            'offset'=>1
+                            'offset'=>1,
+                            'next_label'=>''
                         ]
                 ]
         ],
@@ -209,8 +265,24 @@ class F22
             'type'=>'single',
             'labels'=>[
                         [
-                            'label'=>'Crédito por bienes físicos del activo inmovilizado del ejercicio'
-                            ,'offset'=>1,
+                            'label'=>'Crédito por bienes físicos del activo inmovilizado del ejercicio',
+                            'offset'=>1,
+                            'next_label'=>''
+                        ],
+                        [
+                            'label'=>'Crédito por bienes físicos del activo',
+                            'offset'=>2,
+                            'next_label'=>''
+                        ],
+                        [
+                            'label'=>'Crédito Por Bienes Físicos Del Activo In',
+                            'offset'=>1,
+                            'next_label'=>''
+                        ],
+                        [
+                            'label'=>'Crédito por bienes físicos del activo inmovilizado del',
+                            'offset'=>2,
+                            'next_label'=>''
                         ]
                 ]
         ],
@@ -220,7 +292,8 @@ class F22
             'labels'=>[
                 [
                     'label'=>'Intereses Percibidos O Devengados',
-                    'offset'=>1
+                    'offset'=>1,
+                    'next_label'=>''
                 ]
             ]
         ],
@@ -230,7 +303,8 @@ class F22
             'labels'=>[
                     [
                         'label'=>'Intereses Pagados O Adeudados',
-                        'offset'=>1
+                        'offset'=>1,
+                        'next_label'=>''
                     ]
                 ]
         ],
@@ -240,7 +314,8 @@ class F22
             'labels'=>[
                 [
                     'label'=>'Otros Ingresos Percibidos O Devengados',
-                    'offset'=>1
+                    'offset'=>1,
+                    'next_label'=>''
                 ]
             ]
         ],
@@ -250,7 +325,8 @@ class F22
             'labels'=>[
                 [
                     'label'=>'Crédito por Gastos de Capacitación',
-                    'offset'=>1
+                    'offset'=>1,
+                    'next_label'=>''
                 ]
             ]
         ],
@@ -260,7 +336,8 @@ class F22
             'labels'=>[
                 [
                     'label'=>'Remanente de Crédito por bienes físicos del activo inmovilizado proveniente de inversiones',
-                    'offset'=>1
+                    'offset'=>1,
+                    'next_label'=>''
                 ]
             ]
         ],
@@ -270,7 +347,8 @@ class F22
             'labels'=>[
                 [
                     'label'=>'Aumento de Capital',
-                    'offset'=>1
+                    'offset'=>1,
+                    'next_label'=>''
                 ]
             ]
         ],
@@ -280,7 +358,8 @@ class F22
             'labels'=>[
                 [
                     'label'=>'Disminuciones de Capital',
-                    'offset'=>1
+                    'offset'=>1,
+                    'next_label'=>''
                 ]
             ]
         ]
@@ -308,7 +387,21 @@ class F22
                     if ($field['type']=="single") {
                         foreach ($field['labels'] as $key => $option) {
                             if ($this->helper->startsWith($content, $option['label'])) {
-                                $result[$pageNumber][$field['name']] =  $this->helper->extract_value($xml['page'][$pageNumber]['text'][$position + $option['offset']]);
+                                if($option['next_label']!='')
+                                {
+                                    $next_label = $this->helper->extract_value($xml['page'][$pageNumber]['text'][$position + 1]);
+                                    if($this->helper->startsWith($next_label, $option['next_label']))
+                                    {
+                                        $result[$pageNumber][$field['name']] =  $this->helper->extract_value($xml['page'][$pageNumber]['text'][$position + $option['offset']]);
+                                        break;
+
+                                    }
+
+                                }else{
+                                    $result[$pageNumber][$field['name']] =  $this->helper->extract_value($xml['page'][$pageNumber]['text'][$position + $option['offset']]);
+                                    break;
+                                }
+                                
                             }
                         }
                     }

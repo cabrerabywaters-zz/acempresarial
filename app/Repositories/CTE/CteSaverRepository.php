@@ -56,8 +56,7 @@ class CteSaverRepository
        	    $f22->save();
        	}
 
-       	$CTE->load('f29s', 'f22s','company');
-        dd($CTE);      
+       	$CTE->load('f29s', 'f22s','company');            
 		
 		
 	}

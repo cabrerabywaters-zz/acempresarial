@@ -120,10 +120,7 @@ class CTEsController extends Controller
 
         $validator->validate($CTE);
 
-        dd($CTE["Forms"]['F22']);
-
-        
-        //$CTE = $cte->store($CTE);
+        $CTE = $cte->store($CTE);
      
         return 'Done';
     }

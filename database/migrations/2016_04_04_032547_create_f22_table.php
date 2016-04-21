@@ -19,7 +19,7 @@ class CreateF22Table extends Migration
             $table->string('email');
             $table->string('folio');
             $table->datetime('tax_year');
-            $table->double('first_category_tax_rent_determ', 16, 5);            
+            $table->double('C20', 16, 5);            
             $table->double('C18',16,5);
             $table->double('C122',16,5);
             $table->double('C123',16,5);

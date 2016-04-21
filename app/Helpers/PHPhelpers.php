@@ -54,6 +54,19 @@ class PHPhelpers
         }
 
         /**
+        * Removes all spaces from the values of an array
+        * @param array $F22 [description]
+        */
+        public function array_trim($array)
+        {
+            foreach ($array as $key => $value) {
+                $array[$key] = trim($value);
+            }
+
+            return $array;
+        }
+
+        /**
          * Converts Chilean datetime to DB datetime string
          * @param [type] $date [description]
          */
