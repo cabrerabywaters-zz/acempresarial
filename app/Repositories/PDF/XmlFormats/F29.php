@@ -430,19 +430,7 @@ class F29
 
                         ]
                     ]
-        ],
-         'C547' => [
-                    'name'=>'determ_total',
-                    'labels'=>[
-                        [
-                            'label'=>'TOTAL DETERMINADO',
-                            'code_offset'=>-1,
-                            'value_offset'=>1,
-                            'next_label'=>''
-
-                        ]
-                    ]
-        ],
+        ],        
         'C077' => [
                     'name'=>'fiscal_credit_rem',
                     'labels'=>[

@@ -6,26 +6,31 @@
     <!-- /.box-header -->
     <div class="box-body no-padding">
       <table class="table table-striped">
-        <thead>
-          <th class="col-md-2"></th>
+        <thead>         
           <th class="col-md-4"></th>
-          <th class="col-md-2"></th>
+          <th class="col-md-4"></th>
           <th class="col-md-4"></th>
         </thead>
         <tbody>
         <tr>
-          <td > <h4>Rut:</h4></td>
-          <td style="vertical-align: middle !important;" >{{$cte->company->rut}}</td>
-          <td style="vertical-align: middle !important;"><h4>Nombre:</h4></td>
-          <td style="vertical-align: middle !important;">{{$cte->company->name}}</td>          
+          
+          <td style="vertical-align: middle !important;" >
+            <label>RUT</label>
+            <input type="text" class="form-control" placeholder="RUT" value="{{$cte->company->rut}}">
+          </td>
+         
+          <td style="vertical-align: middle !important;">            
+            <label>Nombre</label>
+             <input type="text" class="form-control" placeholder="Nombre" name="F22[name][]" value="{{$cte->company->name}}">
+          </td>          
         </tr>
          <tr>
-          <td style="vertical-align: middle !important;"><h4>Dirección: </h4></td>
+          
           <td style="vertical-align: middle !important;">{{$cte->company->address}}</td>
           <td style="vertical-align: middle !important;"><h4>Categoría Tributaria:</h4</td>
           <td style="vertical-align: middle !important;">{{$cte->company->tax_category}}</td>          
         </tr>
-           <td > <h4>Puntaje:</h4></td>
+           
           <td style="vertical-align: middle !important;" >{{$cte->evaluation}}</td>
           <td style="vertical-align: middle !important;"><h4>Nombre:</h4></td>
           <td style="vertical-align: middle !important;">{{$cte->company->name}}</td>

@@ -43,8 +43,6 @@
                     @include('cte.show._f29')
 
                     @include('cte.show._f22')
-                    
-                   
                  
                 </div>
                 <!-- /.tab-content -->

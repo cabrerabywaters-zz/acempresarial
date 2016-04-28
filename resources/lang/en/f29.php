@@ -1,11 +1,12 @@
 <?php
 return [  
 
-    'C03_rut' => 'RUT',
-    'C062_net_ppm_det'     => 'PPM NETO',
-    'C111_debits_receipts'     => 'Boletas de Débito',
-    'C15_period'     => 'Fecha',
-    'C110_qty_receipt_documents'     => 'Next &raquo;',
+    'C03' => 'RUT',
+    'C062'     => 'PPM NETO',
+    'C111'     => 'Boletas de Débito',
+    'C15'     => 'Fecha',
+    'C110'     => 'CANTIDAD DE DOCUMENTOS BOLETAS',
+    'C20' => 'Exportaciones'
     
 
 

@@ -20,7 +20,7 @@ class PdfParserRepository
         "pdftohtml -xml -i -enc UTF-8 ".$unlocked_pdf->unlocked_path." ".$unlocked_pdf->path.$unlocked_pdf->raw_name.".xml";
 
         $exec_parse = exec($cmmd_extract, $out, $err);
-        dd('YOLO');
+        
         $unlocked_pdf->xml_path = $unlocked_pdf->path.$unlocked_pdf->raw_name.".xml";
 
         return $unlocked_pdf;
