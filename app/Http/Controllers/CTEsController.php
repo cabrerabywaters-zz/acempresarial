@@ -118,7 +118,7 @@ class CTEsController extends Controller
             
         $CTE = $uploadManager->upload($file,"uploads/ctes/$user_id/");
 
-        $validator->validate($CTE);
+       // $validator->validate($CTE);
 
         $CTE = $cte->store($CTE);
      

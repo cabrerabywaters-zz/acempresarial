@@ -478,21 +478,20 @@ class F29
                 $content = $this->helper->extract_value($content);
 
                 foreach ($this->fields as $label => $field) {
-                    foreach ($field['labels'] as $key => $option) {
-
+                    foreach ($field['labels'] as $key => $option) {                         
                         if ($this->helper->startsWith(strtoupper($content), $option['label'])) {
                             if ($option['next_label']!='') {
                                 $next_label = $this->helper->extract_value($xml['page'][$pageNumber]['text'][$position + 1]);
                                 if ($this->helper->startsWith($next_label, $option['next_label'])) {
-                                    $code = $this->helper->extract_value($xml['page'][$pageNumber]['text'][$position + $option['code_offset']]);
+                                    
                                     $value = $this->helper->extract_value($xml['page'][$pageNumber]['text'][$position + $option['value_offset']]);
-                                    $result[$pageNumber]['C'.$code] =$value;
+                                    $result[$pageNumber][$label] =$value;
                                     break;
                                 }
                             } else {
-                                $code = $this->helper->extract_value($xml['page'][$pageNumber]['text'][$position + $option['code_offset']]);
+                               
                                 $value = $this->helper->extract_value($xml['page'][$pageNumber]['text'][$position + $option['value_offset']]);
-                                $result[$pageNumber]['C'.$code] =$value;
+                                $result[$pageNumber][$label] =$value;
                                 break;
                             }
                         }

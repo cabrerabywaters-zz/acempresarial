@@ -16,8 +16,12 @@ class CreateF29Table extends Migration
             $table->increments('id');
             $table->integer('cte_id')->unsigned();
             $table->string('C03');
+            $table->double('C07',16,5);
             $table->datetime('C15');
-            $table->double('C062',16,5);  
+            $table->double('C20',16,5);
+            $table->double('C062',16,5); 
+            $table->double('C077',16,5); 
+            $table->double('C089',16,5);
             $table->double('C110',16,5);  
             $table->double('C111',16,5); 
             $table->double('C115',16,5); 
@@ -25,30 +29,40 @@ class CreateF29Table extends Migration
             $table->double('C151',16,5); 
             $table->double('C502',16,5); 
             $table->double('C503',16,5); 
+            $table->double('C504',16,5);
             $table->double('C509',16,5); 
             $table->double('C510',16,5); 
             $table->double('C511',16,5); 
-            $table->double('qty_buy_invoice_rec_ret_tot_e',16,5);
+            $table->double('C514',16,5);
+            $table->double('C515',16,5);           
             $table->double('C519',16,5);
             $table->double('C520',16,5);
-            $table->double('qty_received_credit_memo',16,5);
-            $table->double('credit_recup_reint_credit_memo',16,5);
+            $table->double('C525',16,5);
+            $table->double('C527',16,5);
+            $table->double('C528',16,5);
+            $table->double('C532',16,5);
+            $table->double('C535',16,5);
             $table->double('C537',16,5);
             $table->double('C538',16,5);
             $table->double('C547',16,5);
-            $table->double('C089',16,5);
             $table->double('C563',16,5);
             $table->double('C573',16,5);
-            $table->double('net_amount_buy_invoices_received',16,5);
+            $table->double('C587',16,5);
             $table->double('C595',16,5);
-            $table->double('C598',16,5);
+            $table->double('C598',16,5);          
+            
+           
             $table->double('C723',16,5);
             $table->double('C724',16,5);
-            $table->double('C07',16,5);
-            $table->double('C527',16,5);
-            $table->double('C528',16,5);
-            $table->double('C515',16,5);
-            $table->double('C587',16,5);
+             
+            
+            
+           
+            
+            
+          
+            
+
             
             $table->timestamps();
             
