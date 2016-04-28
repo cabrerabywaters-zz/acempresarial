@@ -25,9 +25,10 @@ class CteUploaderRepository
      */
     public function upload(UploadedFile $file, $path)
     {
+
         $file = new UploadHelpers($file, $path);
         $file->move();
-        $file = $this->pdf->parseToXml($file);
+        $file = $this->pdf->parseToXml($file);        
         $CTE = $this->xml->parse($file);
         return $CTE;
     }
