@@ -10,6 +10,7 @@ use acempresarial\Models\Cte;
 use Auth;
 use acempresarial\Repositories\CTE\CteEvaluationRepository;
 use acempresarial\Repositories\CTE\CteValidators\CteArrayValidator;
+use acempresarial\Repositories\CTE\CteRepository;
 
 class CTEsController extends Controller
 {
@@ -62,11 +63,9 @@ class CTEsController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
-    {
-        setlocale(LC_TIME, 'es_CL.utf8');
-        $cte = Cte::findOrFail($id);
-        $cte->load('f29s','f22s','company');
+    public function show(CteRepository $cte,$id)
+    {       
+        $cte = $cte->getRelevantInfo($id);             
 
         return view('cte.show',compact('cte'));
     }

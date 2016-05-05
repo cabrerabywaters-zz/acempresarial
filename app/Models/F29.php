@@ -24,7 +24,7 @@ class F29 extends Model
 	 * @var array
 	 */
 
-	public function getC15PeriodAttribute($value)
+	public function getC15Attribute($value)
 	{
 	    return Carbon::createFromFormat('Y-m-d H:i:s', $value);
 	}

@@ -7,41 +7,45 @@
 				</div>
 				<!-- /.box-header -->
 				<div class="box-body">
-					@forelse($cte->f22s as $f22)
-					<div class="box-group" id="accordion">
+					@forelse($cte->f22s as $f22) 
+					<div class="box-group" id="F22accordion">
 						<!-- we are adding the .panel class so bootstrap.js collapse plugin detects it -->
 						<div class="panel box box-primary">
-							<a data-toggle="collapseF22" data-parent="#accordion" href="#collapseF22{{$f22->id}}" aria-expanded="false" class="collapsed">
+							<a data-toggle="collapse" data-parent="#F22accordion" href="#F22collapse{{$f22->id}}" aria-expanded="false" class="collapsed">
 								<div class="box-header with-border">
 									<h4 class="box-title">
 									
-									{{
-									
-									$f22->tax_year->format('Y')
-									}}
+									Formulario Año {{$f22->tax_year->format('Y')}}
 									
 									</h4>
 								</div>
 							</a>
-							<div id="collapseF22{{$f22->id}}" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
-								dewdewdw
+							<div id="F22collapse{{$f22->id}}" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
+								
 								<div class="box-body no-padding">
 									<table class="table table-striped">
 										<thead>
-											<th class="col-md-2">vfd</th>
-											<th class="col-md-4"></th>
-											<th class="col-md-2"></th>
-											<th class="col-md-4"></th>
+											<th class="col-md-3"></th>
+											<th class="col-md-3"></th>
+											<th class="col-md-3"></th>
+											<th class="col-md-3"></th>
 										</thead>
 										<tbody>
+											<input type="hidden" name="f22[id][]" value="{{$f22->id}}">
 											
-											@foreach(array_chunk($f22->toArray(),2,true) as $partialF22)
+											@foreach(array_chunk($f22->toArray(),4,true) as $chunckedF22)
 											<tr>
-												@foreach($partialF22 as $field => $value)
-												<td ><h4>{{trans("f22.$field")}}</h4></td>
-												<td style="vertical-align: middle !important;" >{{$value}}</td>
+												@foreach($chunckedF22 as $field => $value)
+												<td style="vertical-align: middle !important;" >
+													<label>{{trans("f22.$field")}}</label>
+													<input type="text" class="form-control"
+													name="F22[$field][]" placeholder="RUT" value="{{$value}}">
+													
+												</td>
+												
 												@endforeach
 											</tr>
+											
 											@endforeach
 											
 											

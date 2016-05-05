@@ -13,6 +13,27 @@ El proyecto debe ser montado en un servidor Linux e instalar PDFTOHTML y Ghostsc
 ```
 sudo apt-get install poppler-utils
 ```
+```
+sudo apt-get install tesseract-ocr-spa
+```
+
+```
+sudo apt-get install exactimage
+```
+
+```
+sudo apt-get install imagemagick
+```
+
+```
+sudo apt-get install rpm
+```
+
+```
+ rpm -Uvh ImageMagick-7.0.1-0.x86_64.rpm
+```
+
+hocr2pdf
 
 ## Procesamiento de PDF CTE
 

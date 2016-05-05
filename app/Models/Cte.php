@@ -10,18 +10,31 @@ class Cte extends Model
         'id'
     ];
 
+    /**
+     * Relation with the F22 form
+     * @return [type] [description]
+     */
     public function f22s()
     {
         return $this->hasMany('acempresarial\Models\F22');        
     }
 
+    /**
+     * Relation with the F29 form
+     * @return [type] [description]
+     */
     public function f29s()
     {
         return $this->hasMany('acempresarial\Models\F29');        
     }
 
+    /**
+     * Relation with company.
+     * @return [type] [description]
+     */
     public function company()
     {
         return $this->belongsTo('acempresarial\Models\Company');       
     }
+
 }

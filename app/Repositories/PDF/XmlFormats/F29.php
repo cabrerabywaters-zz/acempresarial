@@ -347,7 +347,7 @@ class F29
                         ]
                     ]
                 ],
-        'C20' => [
+        'C020' => [
                     'name'=>'exportations',
                     'labels'=>[
                         [

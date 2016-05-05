@@ -15,7 +15,7 @@
 								<div class="box-header with-border">
 									<h4 class="box-title">
 									
-									{{$f29->C15}}
+									Formulario Mes {{$f29->C15->format('m')}} de {{$f29->C15->format('Y')}}
 									
 									</h4>
 								</div>
@@ -25,22 +25,27 @@
 								<div class="box-body no-padding">
 									<table class="table table-striped">
 										<thead>
-											<th class="col-md-2"></th>
-											<th class="col-md-4"></th>
-											<th class="col-md-2"></th>
-											<th class="col-md-4"></th>
+											<th class="col-md-3"></th>
+											<th class="col-md-3"></th>
+											<th class="col-md-3"></th>
+											<th class="col-md-3"></th>
 										</thead>
 										<tbody>
+											<input type="hidden" name="F29[id][]" value="{{$f29->id}}">
 											
-											@foreach(array_chunk($f29->toArray(),6,true) as $partialF29)
+											@foreach(array_chunk($f29->toArray(),4,true) as $chunckedF29)
 											<tr>
-												@foreach($partialF29 as $field => $value)
+												@foreach($chunckedF29 as $field => $value)
 												<td style="vertical-align: middle !important;" >
 													<label>{{trans("f29.$field")}}</label>
-													<input type="text" class="form-control" placeholder="RUT" value="{{$value}}">
-												</td>												
+													<input type="text" class="form-control"
+													name="F29[$field][]" placeholder="RUT" value="{{$value}}">
+													
+												</td>
+												
 												@endforeach
 											</tr>
+											
 											@endforeach
 											
 											

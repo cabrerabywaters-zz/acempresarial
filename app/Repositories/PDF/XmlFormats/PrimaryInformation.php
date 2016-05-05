@@ -79,6 +79,8 @@ class PrimaryInformation
     public function extract($xml)
     {
         $result = [];
+
+        dd($xml);
     
         //Iterates over the Xml
         foreach ($xml['page'][0]['text'] as $position => $content) {

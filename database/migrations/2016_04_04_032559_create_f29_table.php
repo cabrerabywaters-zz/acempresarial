@@ -18,7 +18,7 @@ class CreateF29Table extends Migration
             $table->string('C03');
             $table->double('C07',16,5);
             $table->datetime('C15');
-            $table->double('C20',16,5);
+            $table->double('C020',16,5);
             $table->double('C062',16,5); 
             $table->double('C077',16,5); 
             $table->double('C089',16,5);
